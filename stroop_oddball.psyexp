@@ -1,0 +1,680 @@
+﻿<?xml version="1.0" ?>
+<PsychoPy2experiment encoding="utf-8" version="2026.1.3">
+  <Settings>
+    <Param val="ptb" valType="str" updates="None" name="Audio lib"/>
+    <Param val="" valType="str" updates="None" name="Completed URL"/>
+    <Param val="auto" valType="str" updates="None" name="Data file delimiter"/>
+    <Param val="u'data/%s_%s_%s' % (expInfo['participant'], expName, expInfo['date'])" valType="code" updates="None" name="Data filename"/>
+    <Param val="True" valType="bool" updates="None" name="Enable Escape"/>
+    <Param val="Thank you for your patience." valType="str" updates="None" name="End Message"/>
+    <Param val="{'participant':'f&quot;{randint(0, 999999):06.0f}&quot;', 'session':'001'}" valType="code" updates="None" name="Experiment info"/>
+    <Param val="True" valType="bool" updates="None" name="Force stereo"/>
+    <Param val="True" valType="bool" updates="None" name="Full-screen window"/>
+    <Param val="" valType="str" updates="None" name="HTML path"/>
+    <Param val="" valType="str" updates="None" name="Incomplete URL"/>
+    <Param val="testMonitor" valType="str" updates="None" name="Monitor"/>
+    <Param val="[]" valType="list" updates="None" name="Resources"/>
+    <Param val="False" valType="bool" updates="None" name="Save csv file"/>
+    <Param val="False" valType="bool" updates="None" name="Save excel file"/>
+    <Param val="False" valType="bool" updates="None" name="Save hdf5 file"/>
+    <Param val="True" valType="bool" updates="None" name="Save log file"/>
+    <Param val="True" valType="bool" updates="None" name="Save psydat file"/>
+    <Param val="True" valType="bool" updates="None" name="Save wide csv file"/>
+    <Param val="1" valType="num" updates="None" name="Screen"/>
+    <Param val="True" valType="bool" updates="None" name="Show info dlg"/>
+    <Param val="False" valType="bool" updates="None" name="Show mouse"/>
+    <Param val="height" valType="str" updates="None" name="Units"/>
+    <Param val="" valType="str" updates="None" name="Use version"/>
+    <Param val="(1024, 768)" valType="list" updates="None" name="Window size (pixels)"/>
+    <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+    <Param val="" valType="str" updates="None" name="backgroundImg"/>
+    <Param val="avg" valType="str" updates="None" name="blendMode"/>
+    <Param val="float" valType="str" updates="None" name="clockFormat"/>
+    <Param val="{'thisRow.t': 'priority.CRITICAL', 'expName': 'priority.LOW'}" valType="dict" updates="None" name="colPriority"/>
+    <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+    <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+    <Param val="warning" valType="code" updates="None" name="consoleLoggingLevel"/>
+    <Param val="stroop_oddball" valType="str" updates="None" name="expName"/>
+    <Param val="" valType="str" updates="None" name="expVersion"/>
+    <Param val="on Sync" valType="str" updates="None" name="exportHTML"/>
+    <Param val="None" valType="str" updates="None" name="eyetracker"/>
+    <Param val="" valType="code" updates="None" name="frameRate"/>
+    <Param val="Attempting to measure frame rate of screen, please wait..." valType="str" updates="None" name="frameRateMsg"/>
+    <Param val="PsychToolbox" valType="str" updates="None" name="keyboardBackend"/>
+    <Param val="info" valType="code" updates="None" name="logging level"/>
+    <Param val="True" valType="bool" updates="None" name="measureFrameRate"/>
+    <Param val="MIDDLE_BUTTON" valType="list" updates="None" name="mgBlink"/>
+    <Param val="CONTINUOUS" valType="str" updates="None" name="mgMove"/>
+    <Param val="0.5" valType="num" updates="None" name="mgSaccade"/>
+    <Param val="1" valType="code" updates="None" name="runMode"/>
+    <Param val="False" valType="bool" updates="None" name="rush"/>
+    <Param val="time" valType="str" updates="None" name="sortColumns"/>
+    <Param val="pyglet" valType="str" updates="None" name="winBackend"/>
+  </Settings>
+  <Routines>
+    <Routine name="trial">
+      <RoutineSettingsComponent name="trial" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="trial" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+    </Routine>
+    <Routine name="stroop_trial">
+      <RoutineSettingsComponent name="stroop_trial" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="stroop_trial" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="fixation" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="fixation" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="0.5" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="+" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <TextComponent name="stroop_stim" plugin="None">
+        <Param val="$color" valType="color" updates="set every repeat" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="stroop_stim" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.5" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="1.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$word" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp_stroop" plugin="None">
+        <Param val="'r','b','y','g'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_resp_stroop" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.5" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="1.5" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="True" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="ITI">
+      <RoutineSettingsComponent name="ITI" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="ITI" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="text" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="1" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="+" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="stroop_practice">
+      <RoutineSettingsComponent name="stroop_practice" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="stroop_practice" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+    </Routine>
+    <Routine name="stroop_practice_2">
+      <RoutineSettingsComponent name="stroop_practice_2" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="stroop_practice_2" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="fixation_practice" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="fixation_practice" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="0.5" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="+" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <TextComponent name="practice_stim" plugin="None">
+        <Param val="$color" valType="color" updates="set every repeat" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="practice_stim" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.5" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="1.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$word" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp_2" plugin="None">
+        <Param val="'r','b','y','g'" valType="list" updates="set every repeat" name="allowedKeys"/>
+        <Param val="$correct_key" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_resp_2" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.5" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="1.5" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="True" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+      <TextComponent name="feedback_disp" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="feedback_disp" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="1.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$feedback_text" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <CodeComponent name="feedback_code" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="feedback_text = &quot;No response&quot;" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Py" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="if key_resp_2.keys and len(key_resp_2.keys) &gt; 0:&amp;#10;    if key_resp_2.keys[0] == correct_key:&amp;#10;        feedback_text = &quot;Correct ✔&quot;&amp;#10;    else:&amp;#10;        feedback_text = &quot;Wrong ✖&quot;&amp;#10;else:&amp;#10;    feedback_text = &quot;No response&quot;" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="feedback_code" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="practice_instruction">
+      <RoutineSettingsComponent name="practice_instruction" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="practice_instruction" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="practice_instruc" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="practice_instruc" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="You are about to begin a short practice session.&amp;#10;&amp;#10;In each trial, a word will appear in a colored ink. Your task is to respond to the colour of the ink, not the meaning of the word.&amp;#10;&amp;#10;Use the following keys:&amp;#10;R = Red&amp;#10;B =Blue&amp;#10;G = Green&amp;#10;Y = Yellow&amp;#10;&amp;#10;Try to respond as quickly and accurately as possible.&amp;#10;&amp;#10;This is just practice. You can make mistakes and learn.&amp;#10;&amp;#10;Press SPACE to begin." valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp_4" plugin="None">
+        <Param val="'space'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_resp_4" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="oddball_trial">
+      <RoutineSettingsComponent name="oddball_trial" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="oddball_trial" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="oddball_fixation" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="oddball_fixation" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="0.5" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="+" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <PolygonComponent name="circle_stim" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="$color" valType="color" updates="set every repeat" name="fillColor"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="$color" valType="color" updates="set every repeat" name="lineColor"/>
+        <Param val="1" valType="num" updates="constant" name="lineWidth"/>
+        <Param val="4" valType="int" updates="constant" name="nVertices"/>
+        <Param val="circle_stim" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="circle" valType="str" updates="None" name="shape"/>
+        <Param val="(0.5, 0.5)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.5" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="1.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+      <KeyboardComponent name="key_resp_oddball" plugin="None">
+        <Param val="'space'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="$correct_key" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_resp_oddball" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.5" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="1.5" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="True" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="stroop_Instruction">
+      <RoutineSettingsComponent name="stroop_Instruction" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="stroop_Instruction" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="instructionStroop" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="instructionStroop" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="You are about to start a Stroop task. This task will last 6 minutes.&amp;#10;&amp;#10;In each trial, a word will appear in a colored ink. Your task is to respond to the colour of the ink, not the meaning of the word.&amp;#10;&amp;#10;Use the following keys:&amp;#10;R = Red, Y = Yellow, G = Green and B = Blue&amp;#10;&amp;#10;Remember:&amp;#10;&amp;#10;Respond to the COLOUR , not the word&amp;#10;Stay fast and accurate&amp;#10;&amp;#10;Press SPACE to continue" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="confirm_resp" plugin="None">
+        <Param val="'space'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="confirm_resp" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="oddball_instruction">
+      <RoutineSettingsComponent name="oddball_instruction" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="oddball_instruction" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="instructionOddball" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.04" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="instructionOddball" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="WELCOME&amp;#10;&amp;#10;In this task, you will see a series of circles appear one at a time.&amp;#10;&amp;#10;Most of the circles will be BLACK, while a few will be RED.&amp;#10;&amp;#10;YOUR TASK:&amp;#10;- Press the SPACEBAR as quickly and accurately as possible ONLY when you see a RED circle.&amp;#10;- Do NOT press any key when you see a BLACK circle.&amp;#10;&amp;#10;Respond as fast as you can while staying accurate.&amp;#10;&amp;#10;Focus on the screen at all times, as the circles will appear quickly and in random order.&amp;#10;&amp;#10;Press SPACEBAR to begin." valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="confirm_key_resp" plugin="None">
+        <Param val="'space'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="confirm_key_resp" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+  </Routines>
+  <Flow>
+    <Routine name="stroop_Instruction"/>
+    <LoopInitiator loopType="TrialHandler" name="stroop_loop">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[{'word': 'blue', 'color': 'blue', 'condition': 'congruent', 'correct_key': 'b', 'condition_tag': 'STROOP_CONG'}, {'word': 'red', 'color': 'red', 'condition': 'congruent', 'correct_key': 'r', 'condition_tag': 'STROOP_CONG'}, {'word': 'green', 'color': 'green', 'condition': 'congruent', 'correct_key': 'g', 'condition_tag': 'STROOP_CONG'}, {'word': 'green', 'color': 'green', 'condition': 'congruent', 'correct_key': 'g', 'condition_tag': 'STROOP_CONG'}, {'word': 'red', 'color': 'red', 'condition': 'congruent', 'correct_key': 'r', 'condition_tag': 'STROOP_CONG'}, {'word': 'yellow', 'color': 'green', 'condition': 'incongruent', 'correct_key': 'g', 'condition_tag': 'STROOP_INCONG'}, {'word': 'green', 'color': 'green', 'condition': 'congruent', 'correct_key': 'g', 'condition_tag': 'STROOP_CONG'}, {'word': 'green', 'color': 'red', 'condition': 'incongruent', 'correct_key': 'r', 'condition_tag': 'STROOP_INCONG'}, {'word': 'blue', 'color': 'yellow', 'condition': 'incongruent', 'correct_key': 'y', 'condition_tag': 'STROOP_INCONG'}, {'word': 'green', 'color': 'red', 'condition': 'incongruent', 'correct_key': 'r', 'condition_tag': 'STROOP_INCONG'}, {'word': 'yellow', 'color': 'blue', 'condition': 'incongruent', 'correct_key': 'b', 'condition_tag': 'STROOP_INCONG'}, {'word': 'red', 'color': 'red', 'condition': 'congruent', 'correct_key': 'r', 'condition_tag': 'STROOP_CONG'}, {'word': 'yellow', 'color': 'green', 'condition': 'incongruent', 'correct_key': 'g', 'condition_tag': 'STROOP_INCONG'}, {'word': 'green', 'color': 'green', 'condition': 'congruent', 'correct_key': 'g', 'condition_tag': 'STROOP_CONG'}, {'word': 'blue', 'color': 'blue', 'condition': 'congruent', 'correct_key': 'b', 'condition_tag': 'STROOP_CONG'}, {'word': 'yellow', 'color': 'yellow', 'condition': 'congruent', 'correct_key': 'y', 'condition_tag': 'STROOP_CONG'}, {'word': 'blue', 'color': 'blue', 'condition': 'congruent', 'correct_key': 'b', 'condition_tag': 'STROOP_CONG'}, {'word': 'green', 'color': 'blue', 'condition': 'incongruent', 'correct_key': 'b', 'condition_tag': 'STROOP_INCONG'}, {'word': 'green', 'color': 'green', 'condition': 'congruent', 'correct_key': 'g', 'condition_tag': 'STROOP_CONG'}, {'word': 'yellow', 'color': 'red', 'condition': 'incongruent', 'correct_key': 'r', 'condition_tag': 'STROOP_INCONG'}, {'word': 'green', 'color': 'green', 'condition': 'congruent', 'correct_key': 'g', 'condition_tag': 'STROOP_CONG'}, {'word': 'green', 'color': 'green', 'condition': 'congruent', 'correct_key': 'g', 'condition_tag': 'STROOP_CONG'}, {'word': 'blue', 'color': 'yellow', 'condition': 'incongruent', 'correct_key': 'y', 'condition_tag': 'STROOP_INCONG'}, {'word': 'blue', 'color': 'yellow', 'condition': 'incongruent', 'correct_key': 'y', 'condition_tag': 'STROOP_INCONG'}, {'word': 'red', 'color': 'blue', 'condition': 'incongruent', 'correct_key': 'b', 'condition_tag': 'STROOP_INCONG'}, {'word': 'red', 'color': 'yellow', 'condition': 'incongruent', 'correct_key': 'y', 'condition_tag': 'STROOP_INCONG'}, {'word': 'yellow', 'color': 'yellow', 'condition': 'congruent', 'correct_key': 'y', 'condition_tag': 'STROOP_CONG'}, {'word': 'blue', 'color': 'blue', 'condition': 'congruent', 'correct_key': 'b', 'condition_tag': 'STROOP_CONG'}, {'word': 'green', 'color': 'blue', 'condition': 'incongruent', 'correct_key': 'b', 'condition_tag': 'STROOP_INCONG'}, {'word': 'red', 'color': 'red', 'condition': 'congruent', 'correct_key': 'r', 'condition_tag': 'STROOP_CONG'}, {'word': 'blue', 'color': 'blue', 'condition': 'congruent', 'correct_key': 'b', 'condition_tag': 'STROOP_CONG'}, {'word': 'yellow', 'color': 'yellow', 'condition': 'congruent', 'correct_key': 'y', 'condition_tag': 'STROOP_CONG'}, {'word': 'yellow', 'color': 'blue', 'condition': 'incongruent', 'correct_key': 'b', 'condition_tag': 'STROOP_INCONG'}, {'word': 'red', 'color': 'green', 'condition': 'incongruent', 'correct_key': 'g', 'condition_tag': 'STROOP_INCONG'}, {'word': 'green', 'color': 'green', 'condition': 'congruent', 'correct_key': 'g', 'condition_tag': 'STROOP_CONG'}, {'word': 'yellow', 'color': 'green', 'condition': 'incongruent', 'correct_key': 'g', 'condition_tag': 'STROOP_INCONG'}, {'word': 'red', 'color': 'green', 'condition': 'incongruent', 'correct_key': 'g', 'condition_tag': 'STROOP_INCONG'}, {'word': 'yellow', 'color': 'yellow', 'condition': 'congruent', 'correct_key': 'y', 'condition_tag': 'STROOP_CONG'}, {'word': 'blue', 'color': 'red', 'condition': 'incongruent', 'correct_key': 'r', 'condition_tag': 'STROOP_INCONG'}, {'word': 'blue', 'color': 'blue', 'condition': 'congruent', 'correct_key': 'b', 'condition_tag': 'STROOP_CONG'}, {'word': 'yellow', 'color': 'green', 'condition': 'incongruent', 'correct_key': 'g', 'condition_tag': 'STROOP_INCONG'}, {'word': 'blue', 'color': 'red', 'condition': 'incongruent', 'correct_key': 'r', 'condition_tag': 'STROOP_INCONG'}, {'word': 'green', 'color': 'yellow', 'condition': 'incongruent', 'correct_key': 'y', 'condition_tag': 'STROOP_INCONG'}, {'word': 'green', 'color': 'blue', 'condition': 'incongruent', 'correct_key': 'b', 'condition_tag': 'STROOP_INCONG'}, {'word': 'green', 'color': 'yellow', 'condition': 'incongruent', 'correct_key': 'y', 'condition_tag': 'STROOP_INCONG'}, {'word': 'blue', 'color': 'green', 'condition': 'incongruent', 'correct_key': 'g', 'condition_tag': 'STROOP_INCONG'}, {'word': 'red', 'color': 'red', 'condition': 'congruent', 'correct_key': 'r', 'condition_tag': 'STROOP_CONG'}, {'word': 'red', 'color': 'red', 'condition': 'congruent', 'correct_key': 'r', 'condition_tag': 'STROOP_CONG'}, {'word': 'green', 'color': 'blue', 'condition': 'incongruent', 'correct_key': 'b', 'condition_tag': 'STROOP_INCONG'}, {'word': 'blue', 'color': 'red', 'condition': 'incongruent', 'correct_key': 'r', 'condition_tag': 'STROOP_INCONG'}, {'word': 'yellow', 'color': 'yellow', 'condition': 'congruent', 'correct_key': 'y', 'condition_tag': 'STROOP_CONG'}, {'word': 'yellow', 'color': 'yellow', 'condition': 'congruent', 'correct_key': 'y', 'condition_tag': 'STROOP_CONG'}, {'word': 'blue', 'color': 'green', 'condition': 'incongruent', 'correct_key': 'g', 'condition_tag': 'STROOP_INCONG'}, {'word': 'yellow', 'color': 'red', 'condition': 'incongruent', 'correct_key': 'r', 'condition_tag': 'STROOP_INCONG'}, {'word': 'blue', 'color': 'yellow', 'condition': 'incongruent', 'correct_key': 'y', 'condition_tag': 'STROOP_INCONG'}, {'word': 'red', 'color': 'yellow', 'condition': 'incongruent', 'correct_key': 'y', 'condition_tag': 'STROOP_INCONG'}, {'word': 'red', 'color': 'green', 'condition': 'incongruent', 'correct_key': 'g', 'condition_tag': 'STROOP_INCONG'}, {'word': 'green', 'color': 'yellow', 'condition': 'incongruent', 'correct_key': 'y', 'condition_tag': 'STROOP_INCONG'}, {'word': 'blue', 'color': 'blue', 'condition': 'congruent', 'correct_key': 'b', 'condition_tag': 'STROOP_CONG'}, {'word': 'yellow', 'color': 'yellow', 'condition': 'congruent', 'correct_key': 'y', 'condition_tag': 'STROOP_CONG'}, {'word': 'green', 'color': 'blue', 'condition': 'incongruent', 'correct_key': 'b', 'condition_tag': 'STROOP_INCONG'}, {'word': 'yellow', 'color': 'yellow', 'condition': 'congruent', 'correct_key': 'y', 'condition_tag': 'STROOP_CONG'}, {'word': 'blue', 'color': 'blue', 'condition': 'congruent', 'correct_key': 'b', 'condition_tag': 'STROOP_CONG'}, {'word': 'red', 'color': 'red', 'condition': 'congruent', 'correct_key': 'r', 'condition_tag': 'STROOP_CONG'}, {'word': 'yellow', 'color': 'red', 'condition': 'incongruent', 'correct_key': 'r', 'condition_tag': 'STROOP_INCONG'}, {'word': 'red', 'color': 'red', 'condition': 'congruent', 'correct_key': 'r', 'condition_tag': 'STROOP_CONG'}, {'word': 'yellow', 'color': 'blue', 'condition': 'incongruent', 'correct_key': 'b', 'condition_tag': 'STROOP_INCONG'}, {'word': 'blue', 'color': 'red', 'condition': 'incongruent', 'correct_key': 'r', 'condition_tag': 'STROOP_INCONG'}, {'word': 'red', 'color': 'blue', 'condition': 'incongruent', 'correct_key': 'b', 'condition_tag': 'STROOP_INCONG'}, {'word': 'yellow', 'color': 'green', 'condition': 'incongruent', 'correct_key': 'g', 'condition_tag': 'STROOP_INCONG'}, {'word': 'blue', 'color': 'blue', 'condition': 'congruent', 'correct_key': 'b', 'condition_tag': 'STROOP_CONG'}, {'word': 'green', 'color': 'red', 'condition': 'incongruent', 'correct_key': 'r', 'condition_tag': 'STROOP_INCONG'}, {'word': 'yellow', 'color': 'yellow', 'condition': 'congruent', 'correct_key': 'y', 'condition_tag': 'STROOP_CONG'}, {'word': 'green', 'color': 'green', 'condition': 'congruent', 'correct_key': 'g', 'condition_tag': 'STROOP_CONG'}, {'word': 'green', 'color': 'green', 'condition': 'congruent', 'correct_key': 'g', 'condition_tag': 'STROOP_CONG'}, {'word': 'yellow', 'color': 'blue', 'condition': 'incongruent', 'correct_key': 'b', 'condition_tag': 'STROOP_INCONG'}, {'word': 'yellow', 'color': 'red', 'condition': 'incongruent', 'correct_key': 'r', 'condition_tag': 'STROOP_INCONG'}, {'word': 'red', 'color': 'green', 'condition': 'incongruent', 'correct_key': 'g', 'condition_tag': 'STROOP_INCONG'}, {'word': 'green', 'color': 'green', 'condition': 'congruent', 'correct_key': 'g', 'condition_tag': 'STROOP_CONG'}, {'word': 'yellow', 'color': 'yellow', 'condition': 'congruent', 'correct_key': 'y', 'condition_tag': 'STROOP_CONG'}, {'word': 'blue', 'color': 'yellow', 'condition': 'incongruent', 'correct_key': 'y', 'condition_tag': 'STROOP_INCONG'}, {'word': 'yellow', 'color': 'blue', 'condition': 'incongruent', 'correct_key': 'b', 'condition_tag': 'STROOP_INCONG'}, {'word': 'yellow', 'color': 'yellow', 'condition': 'congruent', 'correct_key': 'y', 'condition_tag': 'STROOP_CONG'}, {'word': 'red', 'color': 'yellow', 'condition': 'incongruent', 'correct_key': 'y', 'condition_tag': 'STROOP_INCONG'}, {'word': 'yellow', 'color': 'yellow', 'condition': 'congruent', 'correct_key': 'y', 'condition_tag': 'STROOP_CONG'}, {'word': 'blue', 'color': 'blue', 'condition': 'congruent', 'correct_key': 'b', 'condition_tag': 'STROOP_CONG'}, {'word': 'yellow', 'color': 'yellow', 'condition': 'congruent', 'correct_key': 'y', 'condition_tag': 'STROOP_CONG'}, {'word': 'green', 'color': 'yellow', 'condition': 'incongruent', 'correct_key': 'y', 'condition_tag': 'STROOP_INCONG'}, {'word': 'red', 'color': 'yellow', 'condition': 'incongruent', 'correct_key': 'y', 'condition_tag': 'STROOP_INCONG'}, {'word': 'blue', 'color': 'blue', 'condition': 'congruent', 'correct_key': 'b', 'condition_tag': 'STROOP_CONG'}, {'word': 'green', 'color': 'red', 'condition': 'incongruent', 'correct_key': 'r', 'condition_tag': 'STROOP_INCONG'}, {'word': 'blue', 'color': 'blue', 'condition': 'congruent', 'correct_key': 'b', 'condition_tag': 'STROOP_CONG'}, {'word': 'yellow', 'color': 'red', 'condition': 'incongruent', 'correct_key': 'r', 'condition_tag': 'STROOP_INCONG'}, {'word': 'red', 'color': 'blue', 'condition': 'incongruent', 'correct_key': 'b', 'condition_tag': 'STROOP_INCONG'}, {'word': 'red', 'color': 'red', 'condition': 'congruent', 'correct_key': 'r', 'condition_tag': 'STROOP_CONG'}, {'word': 'blue', 'color': 'blue', 'condition': 'congruent', 'correct_key': 'b', 'condition_tag': 'STROOP_CONG'}, {'word': 'green', 'color': 'red', 'condition': 'incongruent', 'correct_key': 'r', 'condition_tag': 'STROOP_INCONG'}, {'word': 'green', 'color': 'green', 'condition': 'congruent', 'correct_key': 'g', 'condition_tag': 'STROOP_CONG'}, {'word': 'red', 'color': 'red', 'condition': 'congruent', 'correct_key': 'r', 'condition_tag': 'STROOP_CONG'}, {'word': 'green', 'color': 'green', 'condition': 'congruent', 'correct_key': 'g', 'condition_tag': 'STROOP_CONG'}, {'word': 'red', 'color': 'red', 'condition': 'congruent', 'correct_key': 'r', 'condition_tag': 'STROOP_CONG'}, {'word': 'yellow', 'color': 'yellow', 'condition': 'congruent', 'correct_key': 'y', 'condition_tag': 'STROOP_CONG'}, {'word': 'red', 'color': 'red', 'condition': 'congruent', 'correct_key': 'r', 'condition_tag': 'STROOP_CONG'}, {'word': 'red', 'color': 'red', 'condition': 'congruent', 'correct_key': 'r', 'condition_tag': 'STROOP_CONG'}, {'word': 'red', 'color': 'blue', 'condition': 'incongruent', 'correct_key': 'b', 'condition_tag': 'STROOP_INCONG'}, {'word': 'green', 'color': 'green', 'condition': 'congruent', 'correct_key': 'g', 'condition_tag': 'STROOP_CONG'}, {'word': 'red', 'color': 'red', 'condition': 'congruent', 'correct_key': 'r', 'condition_tag': 'STROOP_CONG'}, {'word': 'blue', 'color': 'green', 'condition': 'incongruent', 'correct_key': 'g', 'condition_tag': 'STROOP_INCONG'}, {'word': 'blue', 'color': 'green', 'condition': 'incongruent', 'correct_key': 'g', 'condition_tag': 'STROOP_INCONG'}, {'word': 'red', 'color': 'blue', 'condition': 'incongruent', 'correct_key': 'b', 'condition_tag': 'STROOP_INCONG'}, {'word': 'blue', 'color': 'red', 'condition': 'incongruent', 'correct_key': 'r', 'condition_tag': 'STROOP_INCONG'}, {'word': 'blue', 'color': 'blue', 'condition': 'congruent', 'correct_key': 'b', 'condition_tag': 'STROOP_CONG'}, {'word': 'green', 'color': 'yellow', 'condition': 'incongruent', 'correct_key': 'y', 'condition_tag': 'STROOP_INCONG'}, {'word': 'red', 'color': 'green', 'condition': 'incongruent', 'correct_key': 'g', 'condition_tag': 'STROOP_INCONG'}, {'word': 'red', 'color': 'yellow', 'condition': 'incongruent', 'correct_key': 'y', 'condition_tag': 'STROOP_INCONG'}, {'word': 'blue', 'color': 'blue', 'condition': 'congruent', 'correct_key': 'b', 'condition_tag': 'STROOP_CONG'}, {'word': 'red', 'color': 'red', 'condition': 'congruent', 'correct_key': 'r', 'condition_tag': 'STROOP_CONG'}, {'word': 'yellow', 'color': 'yellow', 'condition': 'congruent', 'correct_key': 'y', 'condition_tag': 'STROOP_CONG'}, {'word': 'blue', 'color': 'green', 'condition': 'incongruent', 'correct_key': 'g', 'condition_tag': 'STROOP_INCONG'}, {'word': 'green', 'color': 'green', 'condition': 'congruent', 'correct_key': 'g', 'condition_tag': 'STROOP_CONG'}]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="stroop_conditions.xlsx" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="code"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="code"/>
+      <Param name="name" updates="None" val="stroop_loop" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="stroop_trial"/>
+    <Routine name="ITI"/>
+    <LoopTerminator name="stroop_loop"/>
+    <Routine name="oddball_instruction"/>
+    <LoopInitiator loopType="TrialHandler" name="oddball_loop">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[{'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'red', 'type': 'tgt', 'correct_key': 'space', 'condition_tag': 'ODDBALL_TARGET'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'red', 'type': 'tgt', 'correct_key': 'space', 'condition_tag': 'ODDBALL_TARGET'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'red', 'type': 'tgt', 'correct_key': 'space', 'condition_tag': 'ODDBALL_TARGET'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'red', 'type': 'tgt', 'correct_key': 'space', 'condition_tag': 'ODDBALL_TARGET'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'red', 'type': 'tgt', 'correct_key': 'space', 'condition_tag': 'ODDBALL_TARGET'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'red', 'type': 'tgt', 'correct_key': 'space', 'condition_tag': 'ODDBALL_TARGET'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'red', 'type': 'tgt', 'correct_key': 'space', 'condition_tag': 'ODDBALL_TARGET'}, {'color': 'red', 'type': 'tgt', 'correct_key': 'space', 'condition_tag': 'ODDBALL_TARGET'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'red', 'type': 'tgt', 'correct_key': 'space', 'condition_tag': 'ODDBALL_TARGET'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'red', 'type': 'tgt', 'correct_key': 'space', 'condition_tag': 'ODDBALL_TARGET'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'red', 'type': 'tgt', 'correct_key': 'space', 'condition_tag': 'ODDBALL_TARGET'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'red', 'type': 'tgt', 'correct_key': 'space', 'condition_tag': 'ODDBALL_TARGET'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'red', 'type': 'tgt', 'correct_key': 'space', 'condition_tag': 'ODDBALL_TARGET'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'red', 'type': 'tgt', 'correct_key': 'space', 'condition_tag': 'ODDBALL_TARGET'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'red', 'type': 'tgt', 'correct_key': 'space', 'condition_tag': 'ODDBALL_TARGET'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'red', 'type': 'tgt', 'correct_key': 'space', 'condition_tag': 'ODDBALL_TARGET'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'red', 'type': 'tgt', 'correct_key': 'space', 'condition_tag': 'ODDBALL_TARGET'}, {'color': 'red', 'type': 'tgt', 'correct_key': 'space', 'condition_tag': 'ODDBALL_TARGET'}, {'color': 'red', 'type': 'tgt', 'correct_key': 'space', 'condition_tag': 'ODDBALL_TARGET'}, {'color': 'red', 'type': 'tgt', 'correct_key': 'space', 'condition_tag': 'ODDBALL_TARGET'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'red', 'type': 'tgt', 'correct_key': 'space', 'condition_tag': 'ODDBALL_TARGET'}, {'color': 'red', 'type': 'tgt', 'correct_key': 'space', 'condition_tag': 'ODDBALL_TARGET'}, {'color': 'red', 'type': 'tgt', 'correct_key': 'space', 'condition_tag': 'ODDBALL_TARGET'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'red', 'type': 'tgt', 'correct_key': 'space', 'condition_tag': 'ODDBALL_TARGET'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'red', 'type': 'tgt', 'correct_key': 'space', 'condition_tag': 'ODDBALL_TARGET'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'red', 'type': 'tgt', 'correct_key': 'space', 'condition_tag': 'ODDBALL_TARGET'}, {'color': 'red', 'type': 'tgt', 'correct_key': 'space', 'condition_tag': 'ODDBALL_TARGET'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'red', 'type': 'tgt', 'correct_key': 'space', 'condition_tag': 'ODDBALL_TARGET'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'red', 'type': 'tgt', 'correct_key': 'space', 'condition_tag': 'ODDBALL_TARGET'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'red', 'type': 'tgt', 'correct_key': 'space', 'condition_tag': 'ODDBALL_TARGET'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'red', 'type': 'tgt', 'correct_key': 'space', 'condition_tag': 'ODDBALL_TARGET'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'red', 'type': 'tgt', 'correct_key': 'space', 'condition_tag': 'ODDBALL_TARGET'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'red', 'type': 'tgt', 'correct_key': 'space', 'condition_tag': 'ODDBALL_TARGET'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'red', 'type': 'tgt', 'correct_key': 'space', 'condition_tag': 'ODDBALL_TARGET'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'red', 'type': 'tgt', 'correct_key': 'space', 'condition_tag': 'ODDBALL_TARGET'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'red', 'type': 'tgt', 'correct_key': 'space', 'condition_tag': 'ODDBALL_TARGET'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'red', 'type': 'tgt', 'correct_key': 'space', 'condition_tag': 'ODDBALL_TARGET'}, {'color': 'red', 'type': 'tgt', 'correct_key': 'space', 'condition_tag': 'ODDBALL_TARGET'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'red', 'type': 'tgt', 'correct_key': 'space', 'condition_tag': 'ODDBALL_TARGET'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'red', 'type': 'tgt', 'correct_key': 'space', 'condition_tag': 'ODDBALL_TARGET'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}, {'color': 'black', 'type': 'std', 'correct_key': 'n/a', 'condition_tag': 'ODDBALL_STANDARD'}]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="oddball_conditions.xlsx" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="code"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="code"/>
+      <Param name="name" updates="None" val="oddball_loop" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="oddball_trial"/>
+    <Routine name="ITI"/>
+    <LoopTerminator name="oddball_loop"/>
+  </Flow>
+</PsychoPy2experiment>
