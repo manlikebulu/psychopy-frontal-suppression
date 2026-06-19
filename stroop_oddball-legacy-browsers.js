@@ -154,7 +154,7 @@ async function experimentInit() {
   instructionStroop = new visual.TextStim({
     win: psychoJS.window,
     name: 'instructionStroop',
-    text: 'You are about to start a Stroop task. This task will last 6 minutes.\n\nIn each trial, a word will appear in a colored ink. Your task is to respond to the colour of the ink, not the meaning of the word.\n\nUse the following keys:\nR = Red, Y = Yellow, G = Green and B = Blue\n\nRemember:\n\nRespond to the COLOUR , not the word\nStay fast and accurate\n',
+    text: 'You are about to start a Stroop task. This task will last 5 minutes.\n\nIn each trial, a word will appear in a colored ink. Your task is to respond to the colour of the ink, not the meaning of the word.\n\nUse the following keys:\nR = Red, Y = Yellow, G = Green and B = Blue\n\nRemember:\n\nRespond to the COLOUR , not the word\nStay fast and accurate\n',
     font: 'Arial',
     units: undefined, 
     pos: [0, 0], draggable: false, height: 0.05,  wrapWidth: undefined, ori: 0.0,
@@ -1256,7 +1256,7 @@ function Thankyou_screenRoutineBegin(snapshot) {
         // keep track of whether this Routine was forcibly ended
         routineForceEnded = false;
         Thankyou_screenClock.reset(routineTimer.getTime());
-        routineTimer.add(10.000000);
+        routineTimer.add(2.000000);
         Thankyou_screenMaxDurationReached = false;
         // update component parameters for each repeat
         psychoJS.experiment.addData('Thankyou_screen.started', globalClock.getTime());
@@ -1296,7 +1296,7 @@ function Thankyou_screenRoutineEachFrame() {
         if (thanks_txt.status === PsychoJS.Status.STARTED) {
         }
         
-        frameRemains = 0.0 + 10 - psychoJS.window.monitorFramePeriod * 0.75;// most of one frame period left
+        frameRemains = 0.0 + 2 - psychoJS.window.monitorFramePeriod * 0.75;// most of one frame period left
         if (thanks_txt.status === PsychoJS.Status.STARTED && t >= frameRemains) {
           // keep track of stop time/frame for later
           thanks_txt.tStop = t;  // not accounting for scr refresh
@@ -1347,7 +1347,7 @@ function Thankyou_screenRoutineEnd(snapshot) {
             routineTimer.reset();} else if (Thankyou_screenMaxDurationReached) {
             Thankyou_screenClock.add(Thankyou_screenMaxDuration);
         } else {
-            Thankyou_screenClock.add(10.000000);
+            Thankyou_screenClock.add(2.000000);
         }
         // Routines running outside a loop should always advance the datafile row
         if (currentLoop === psychoJS.experiment) {
