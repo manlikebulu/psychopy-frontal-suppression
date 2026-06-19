@@ -1,0 +1,74 @@
+51.8585 	DEBUG 	Fullscreen settings ignored as running in pilot mode.
+51.8643 	INFO 	Loaded monitor calibration from ['2025_10_26 22:49']
+52.5197 	INFO 	Using renderer 'Intel(R) UHD Graphics 600' for graphics
+52.5198 	INFO 	OpenGL version supported by driver is 4..
+54.5193 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001FF1B1E2E00>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001FF1B1E29B0>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=False, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001FF1B21D150>, multiSample=False, name='window1', numSamples=2, pos=[np.float64(283.0), np.float64(84.0)], screen=0, size=array([800, 600]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+54.5195 	EXP 	window1: backgroundImage = ''
+54.5195 	EXP 	window1: backgroundFit = 'none'
+54.6412 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+54.6953 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+54.7488 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+54.8030 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+54.8580 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+54.9114 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+54.9683 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+55.0214 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+55.0721 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+55.1230 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+55.1751 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+55.2286 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+55.2823 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+55.3362 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+55.3899 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+55.4431 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+55.4970 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+55.5498 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+55.6015 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+55.6541 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+55.7083 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+55.7099 	DEBUG 	Uploading Texture Font fontname to graphics card
+55.7390 	DEBUG 	Upload of Texture Font fontname complete
+55.8318 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+55.8845 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+55.9374 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+55.9383 	DEBUG 	Uploading Texture Font fontname to graphics card
+55.9683 	DEBUG 	Upload of Texture Font fontname complete
+55.9754 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+55.9755 	EXP 	window1: recordFrameIntervals = False
+56.2438 	EXP 	window1: recordFrameIntervals = True
+56.3089 	WARNING 	t of last frame was 33.13ms (=1/30)
+56.3415 	WARNING 	t of last frame was 32.64ms (=1/30)
+57.9604 	EXP 	window1: recordFrameIntervals = False
+57.9605 	EXP 	Screen (0) actual frame rate measured at 60.02Hz
+58.0516 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+58.1052 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+58.1623 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+58.2176 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+58.2727 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+58.3274 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+58.3804 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+58.4349 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+58.4894 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+58.5434 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+58.5445 	DEBUG 	Uploading Texture Font fontname to graphics card
+58.5461 	DEBUG 	Upload of Texture Font fontname complete
+58.7579 	INFO 	keyboard.Keyboard is using ptb backend.
+58.7580 	EXP 	stroop_oddball: status = STARTED
+59.1279 	EXP 	Created baseline_screen = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='baseline_screen', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+59.2205 	EXP 	Created instructionStroop = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='instructionStroop', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+59.2229 	EXP 	Created stroop_stim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='stroop_stim', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+59.2324 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+59.2955 	EXP 	Created instructionOddball = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.04), italic=False, languageStyle='LTR', name='instructionOddball', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+59.3107 	EXP 	Created circle_stim = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, draggable=False, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='circle_stim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+59.3162 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+0.0259 	EXP 	baseline_screen: autoDraw = True
+43.0353 	EXP 	Device response: <KeyPress from None: t=43.00329680000141, value=escape, duration=None>
+43.0367 	DATA 	Keypress: escape
+43.1984 	EXP 	Device response: <KeyPress from None: t=43.00329680000141, value=escape, duration=0.1794690000024275>
+43.1985 	EXP 	stroop_oddball: status = STOPPED
+43.2089 	EXP 	baseline_screen: autoDraw = False
+43.2149 	EXP 	stroop_oddball: status = STOPPED
+43.2206 	INFO 	saved data to 'C:\\Users\\TSC\\OneDrive\\Desktop\\stroop_oddball\\data\\ANR_FS001_stroop_oddball_2026-06-19_11h52.37.922.csv'
+43.2222 	INFO 	saved data to C:\Users\TSC\OneDrive\Desktop\stroop_oddball\data\ANR_FS001_stroop_oddball_2026-06-19_11h52.37.922.psydat
+44.1192 	DEBUG 	Saving data for stroop_oddball ExperimentHandler
+44.1272 	INFO 	Stopping keyboard key buffers.

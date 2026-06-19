@@ -1,0 +1,1497 @@
+132.2342 	DEBUG 	Fullscreen settings ignored as running in pilot mode.
+132.2363 	INFO 	Loaded monitor calibration from ['2025_10_26 22:49']
+134.6475 	INFO 	Using renderer 'Intel(R) UHD Graphics 600' for graphics
+134.6475 	INFO 	OpenGL version supported by driver is 4..
+136.7299 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001C5FF9FDD50>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001C5FF9FDCF0>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=False, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001C5FF31BB20>, multiSample=False, name='window1', numSamples=2, pos=[np.float64(283.0), np.float64(84.0)], screen=0, size=array([800, 600]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+136.7300 	EXP 	window1: backgroundImage = ''
+136.7301 	EXP 	window1: backgroundFit = 'none'
+136.8715 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+136.9258 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+136.9798 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+137.0340 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+137.0881 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+137.1409 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+137.1944 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+137.2493 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+137.3030 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+137.3556 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+137.4096 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+137.4634 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+137.5169 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+137.5705 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+137.6238 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+137.6776 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+137.7319 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+137.7852 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+137.8381 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+137.8912 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+137.9433 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+137.9449 	DEBUG 	Uploading Texture Font fontname to graphics card
+137.9736 	DEBUG 	Upload of Texture Font fontname complete
+138.0692 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+138.1240 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+138.1786 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+138.1795 	DEBUG 	Uploading Texture Font fontname to graphics card
+138.2073 	DEBUG 	Upload of Texture Font fontname complete
+138.2143 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+138.2143 	EXP 	window1: recordFrameIntervals = False
+138.4320 	EXP 	window1: recordFrameIntervals = True
+140.0987 	EXP 	window1: recordFrameIntervals = False
+140.0988 	EXP 	Screen (0) actual frame rate measured at 60.03Hz
+140.1892 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+140.2415 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+140.2944 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+140.3485 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+140.4025 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+140.4576 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+140.5125 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+140.5678 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+140.6222 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+140.6763 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+140.6773 	DEBUG 	Uploading Texture Font fontname to graphics card
+140.6789 	DEBUG 	Upload of Texture Font fontname complete
+140.9942 	INFO 	keyboard.Keyboard is using ptb backend.
+140.9943 	EXP 	stroop_oddball: status = STARTED
+141.8004 	EXP 	Created baseline_screen = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='baseline_screen', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+141.9397 	EXP 	Created instructionStroop = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='instructionStroop', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+141.9417 	EXP 	Created stroop_stim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='stroop_stim', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+141.9511 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+142.0519 	EXP 	Created instructionOddball = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.04), italic=False, languageStyle='LTR', name='instructionOddball', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+142.0928 	EXP 	Created circle_stim = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, draggable=False, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='circle_stim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+142.0984 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+0.0313 	EXP 	baseline_screen: autoDraw = True
+180.0394 	EXP 	baseline_screen: autoDraw = False
+180.0394 	EXP 	instructionStroop: autoDraw = True
+190.0837 	DEBUG 	Read excel file with openpyxl: stroop_conditions.xlsx
+190.1160 	EXP 	Imported stroop_conditions.xlsx as conditions, 120 conditions, 5 params
+190.1219 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'word': 'yellow', 'color': 'yellow', 'condition': 'congruent', 'correct_key': 'y', 'condition_tag': 'STROOP_CONG', 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+190.1386 	EXP 	instructionStroop: autoDraw = False
+190.1386 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: yellow, alpha=1.0>
+190.1386 	EXP 	stroop_stim: height = np.float64(0.05)
+190.1386 	EXP 	stroop_stim: height = np.float64(0.05)
+190.1386 	EXP 	stroop_stim: height = np.float64(0.05)
+190.1386 	EXP 	stroop_stim: text = 'yellow'
+190.5078 	INFO 	Keyboard events cleared
+190.5075 	EXP 	stroop_stim: autoDraw = True
+191.5077 	EXP 	stroop_stim: autoDraw = False
+192.0076 	EXP 	stroop_stim: autoDraw = False
+192.0076 	EXP 	text: autoDraw = True
+192.9970 	EXP 	New trial (rep=0, index=1): <Trial 1 (1 in rep 0) data={'word': 'yellow', 'color': 'yellow', 'condition': 'congruent', 'correct_key': 'y', 'condition_tag': 'STROOP_CONG', 'thisN': 1, 'thisTrialN': 1, 'thisRepN': 0}>
+193.0074 	EXP 	text: autoDraw = False
+193.0074 	EXP 	text: autoDraw = False
+193.0074 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: yellow, alpha=1.0>
+193.0074 	EXP 	stroop_stim: text = 'yellow'
+193.5076 	INFO 	Keyboard events cleared
+193.5074 	EXP 	stroop_stim: autoDraw = True
+194.5073 	EXP 	stroop_stim: autoDraw = False
+195.0074 	EXP 	stroop_stim: autoDraw = False
+195.0074 	EXP 	text: autoDraw = True
+195.9971 	EXP 	New trial (rep=0, index=2): <Trial 2 (2 in rep 0) data={'word': 'red', 'color': 'green', 'condition': 'incongruent', 'correct_key': 'g', 'condition_tag': 'STROOP_INCONG', 'thisN': 2, 'thisTrialN': 2, 'thisRepN': 0}>
+196.0227 	EXP 	text: autoDraw = False
+196.0227 	EXP 	text: autoDraw = False
+196.0227 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+196.0227 	EXP 	stroop_stim: height = np.float64(0.05)
+196.0227 	EXP 	stroop_stim: height = np.float64(0.05)
+196.0227 	EXP 	stroop_stim: height = np.float64(0.05)
+196.0227 	EXP 	stroop_stim: text = 'red'
+196.5076 	INFO 	Keyboard events cleared
+196.5074 	EXP 	stroop_stim: autoDraw = True
+197.5073 	EXP 	stroop_stim: autoDraw = False
+198.0072 	EXP 	stroop_stim: autoDraw = False
+198.0072 	EXP 	text: autoDraw = True
+198.9969 	EXP 	New trial (rep=0, index=3): <Trial 3 (3 in rep 0) data={'word': 'red', 'color': 'red', 'condition': 'congruent', 'correct_key': 'r', 'condition_tag': 'STROOP_CONG', 'thisN': 3, 'thisTrialN': 3, 'thisRepN': 0}>
+199.0072 	EXP 	text: autoDraw = False
+199.0072 	EXP 	text: autoDraw = False
+199.0072 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+199.0072 	EXP 	stroop_stim: text = 'red'
+199.5068 	INFO 	Keyboard events cleared
+199.5066 	EXP 	stroop_stim: autoDraw = True
+200.5071 	EXP 	stroop_stim: autoDraw = False
+201.0071 	EXP 	stroop_stim: autoDraw = False
+201.0071 	EXP 	text: autoDraw = True
+201.9965 	EXP 	New trial (rep=0, index=4): <Trial 4 (4 in rep 0) data={'word': 'red', 'color': 'blue', 'condition': 'incongruent', 'correct_key': 'b', 'condition_tag': 'STROOP_INCONG', 'thisN': 4, 'thisTrialN': 4, 'thisRepN': 0}>
+202.0070 	EXP 	text: autoDraw = False
+202.0070 	EXP 	text: autoDraw = False
+202.0070 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+202.0070 	EXP 	stroop_stim: text = 'red'
+202.5072 	INFO 	Keyboard events cleared
+202.5070 	EXP 	stroop_stim: autoDraw = True
+203.5071 	EXP 	stroop_stim: autoDraw = False
+204.0071 	EXP 	stroop_stim: autoDraw = False
+204.0071 	EXP 	text: autoDraw = True
+204.9967 	EXP 	New trial (rep=0, index=5): <Trial 5 (5 in rep 0) data={'word': 'yellow', 'color': 'yellow', 'condition': 'congruent', 'correct_key': 'y', 'condition_tag': 'STROOP_CONG', 'thisN': 5, 'thisTrialN': 5, 'thisRepN': 0}>
+205.0220 	EXP 	text: autoDraw = False
+205.0220 	EXP 	text: autoDraw = False
+205.0220 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: yellow, alpha=1.0>
+205.0220 	EXP 	stroop_stim: height = np.float64(0.05)
+205.0220 	EXP 	stroop_stim: height = np.float64(0.05)
+205.0220 	EXP 	stroop_stim: height = np.float64(0.05)
+205.0220 	EXP 	stroop_stim: text = 'yellow'
+205.5071 	INFO 	Keyboard events cleared
+205.5069 	EXP 	stroop_stim: autoDraw = True
+206.5069 	EXP 	stroop_stim: autoDraw = False
+207.0060 	EXP 	stroop_stim: autoDraw = False
+207.0060 	EXP 	text: autoDraw = True
+207.9965 	EXP 	New trial (rep=0, index=6): <Trial 6 (6 in rep 0) data={'word': 'green', 'color': 'green', 'condition': 'congruent', 'correct_key': 'g', 'condition_tag': 'STROOP_CONG', 'thisN': 6, 'thisTrialN': 6, 'thisRepN': 0}>
+208.0212 	EXP 	text: autoDraw = False
+208.0212 	EXP 	text: autoDraw = False
+208.0212 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+208.0212 	EXP 	stroop_stim: height = np.float64(0.05)
+208.0212 	EXP 	stroop_stim: height = np.float64(0.05)
+208.0212 	EXP 	stroop_stim: height = np.float64(0.05)
+208.0212 	EXP 	stroop_stim: text = 'green'
+208.5062 	INFO 	Keyboard events cleared
+208.5060 	EXP 	stroop_stim: autoDraw = True
+209.5059 	EXP 	stroop_stim: autoDraw = False
+210.0061 	EXP 	stroop_stim: autoDraw = False
+210.0061 	EXP 	text: autoDraw = True
+210.9959 	EXP 	New trial (rep=0, index=7): <Trial 7 (7 in rep 0) data={'word': 'green', 'color': 'yellow', 'condition': 'incongruent', 'correct_key': 'y', 'condition_tag': 'STROOP_INCONG', 'thisN': 7, 'thisTrialN': 7, 'thisRepN': 0}>
+211.0060 	EXP 	text: autoDraw = False
+211.0060 	EXP 	text: autoDraw = False
+211.0060 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: yellow, alpha=1.0>
+211.0060 	EXP 	stroop_stim: text = 'green'
+211.5062 	INFO 	Keyboard events cleared
+211.5060 	EXP 	stroop_stim: autoDraw = True
+212.5058 	EXP 	stroop_stim: autoDraw = False
+213.0061 	EXP 	stroop_stim: autoDraw = False
+213.0061 	EXP 	text: autoDraw = True
+213.9960 	EXP 	New trial (rep=0, index=8): <Trial 8 (8 in rep 0) data={'word': 'yellow', 'color': 'yellow', 'condition': 'congruent', 'correct_key': 'y', 'condition_tag': 'STROOP_CONG', 'thisN': 8, 'thisTrialN': 8, 'thisRepN': 0}>
+214.0214 	EXP 	text: autoDraw = False
+214.0214 	EXP 	text: autoDraw = False
+214.0214 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: yellow, alpha=1.0>
+214.0214 	EXP 	stroop_stim: height = np.float64(0.05)
+214.0214 	EXP 	stroop_stim: height = np.float64(0.05)
+214.0214 	EXP 	stroop_stim: height = np.float64(0.05)
+214.0214 	EXP 	stroop_stim: text = 'yellow'
+214.5061 	INFO 	Keyboard events cleared
+214.5059 	EXP 	stroop_stim: autoDraw = True
+215.5062 	EXP 	stroop_stim: autoDraw = False
+216.0056 	EXP 	stroop_stim: autoDraw = False
+216.0056 	EXP 	text: autoDraw = True
+216.9948 	EXP 	New trial (rep=0, index=9): <Trial 9 (9 in rep 0) data={'word': 'red', 'color': 'blue', 'condition': 'incongruent', 'correct_key': 'b', 'condition_tag': 'STROOP_INCONG', 'thisN': 9, 'thisTrialN': 9, 'thisRepN': 0}>
+217.0055 	EXP 	text: autoDraw = False
+217.0055 	EXP 	text: autoDraw = False
+217.0055 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+217.0055 	EXP 	stroop_stim: height = np.float64(0.05)
+217.0055 	EXP 	stroop_stim: height = np.float64(0.05)
+217.0055 	EXP 	stroop_stim: height = np.float64(0.05)
+217.0055 	EXP 	stroop_stim: text = 'red'
+217.5065 	INFO 	Keyboard events cleared
+217.5062 	EXP 	stroop_stim: autoDraw = True
+218.5065 	EXP 	stroop_stim: autoDraw = False
+219.0063 	EXP 	stroop_stim: autoDraw = False
+219.0063 	EXP 	text: autoDraw = True
+219.9956 	EXP 	New trial (rep=0, index=10): <Trial 10 (10 in rep 0) data={'word': 'red', 'color': 'green', 'condition': 'incongruent', 'correct_key': 'g', 'condition_tag': 'STROOP_INCONG', 'thisN': 10, 'thisTrialN': 10, 'thisRepN': 0}>
+220.0061 	EXP 	text: autoDraw = False
+220.0061 	EXP 	text: autoDraw = False
+220.0061 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+220.0061 	EXP 	stroop_stim: text = 'red'
+220.5065 	INFO 	Keyboard events cleared
+220.5063 	EXP 	stroop_stim: autoDraw = True
+221.5218 	EXP 	stroop_stim: autoDraw = False
+222.0061 	EXP 	stroop_stim: autoDraw = False
+222.0061 	EXP 	text: autoDraw = True
+222.9947 	EXP 	New trial (rep=0, index=11): <Trial 11 (11 in rep 0) data={'word': 'red', 'color': 'red', 'condition': 'congruent', 'correct_key': 'r', 'condition_tag': 'STROOP_CONG', 'thisN': 11, 'thisTrialN': 11, 'thisRepN': 0}>
+223.0051 	EXP 	text: autoDraw = False
+223.0051 	EXP 	text: autoDraw = False
+223.0051 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+223.0051 	EXP 	stroop_stim: text = 'red'
+223.5064 	INFO 	Keyboard events cleared
+223.5062 	EXP 	stroop_stim: autoDraw = True
+224.5059 	EXP 	stroop_stim: autoDraw = False
+225.0059 	EXP 	stroop_stim: autoDraw = False
+225.0059 	EXP 	text: autoDraw = True
+225.9954 	EXP 	New trial (rep=0, index=12): <Trial 12 (12 in rep 0) data={'word': 'yellow', 'color': 'green', 'condition': 'incongruent', 'correct_key': 'g', 'condition_tag': 'STROOP_INCONG', 'thisN': 12, 'thisTrialN': 12, 'thisRepN': 0}>
+226.0211 	EXP 	text: autoDraw = False
+226.0211 	EXP 	text: autoDraw = False
+226.0211 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+226.0211 	EXP 	stroop_stim: height = np.float64(0.05)
+226.0211 	EXP 	stroop_stim: height = np.float64(0.05)
+226.0211 	EXP 	stroop_stim: height = np.float64(0.05)
+226.0211 	EXP 	stroop_stim: text = 'yellow'
+226.5062 	INFO 	Keyboard events cleared
+226.5060 	EXP 	stroop_stim: autoDraw = True
+227.5058 	EXP 	stroop_stim: autoDraw = False
+228.0058 	EXP 	stroop_stim: autoDraw = False
+228.0058 	EXP 	text: autoDraw = True
+228.9951 	EXP 	New trial (rep=0, index=13): <Trial 13 (13 in rep 0) data={'word': 'yellow', 'color': 'yellow', 'condition': 'congruent', 'correct_key': 'y', 'condition_tag': 'STROOP_CONG', 'thisN': 13, 'thisTrialN': 13, 'thisRepN': 0}>
+229.0061 	EXP 	text: autoDraw = False
+229.0061 	EXP 	text: autoDraw = False
+229.0061 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: yellow, alpha=1.0>
+229.0061 	EXP 	stroop_stim: text = 'yellow'
+229.5053 	INFO 	Keyboard events cleared
+229.5051 	EXP 	stroop_stim: autoDraw = True
+230.5048 	EXP 	stroop_stim: autoDraw = False
+231.0060 	EXP 	stroop_stim: autoDraw = False
+231.0060 	EXP 	text: autoDraw = True
+231.9950 	EXP 	New trial (rep=0, index=14): <Trial 14 (14 in rep 0) data={'word': 'yellow', 'color': 'blue', 'condition': 'incongruent', 'correct_key': 'b', 'condition_tag': 'STROOP_INCONG', 'thisN': 14, 'thisTrialN': 14, 'thisRepN': 0}>
+232.0055 	EXP 	text: autoDraw = False
+232.0055 	EXP 	text: autoDraw = False
+232.0055 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+232.0055 	EXP 	stroop_stim: text = 'yellow'
+232.5049 	INFO 	Keyboard events cleared
+232.5047 	EXP 	stroop_stim: autoDraw = True
+233.5057 	EXP 	stroop_stim: autoDraw = False
+234.0057 	EXP 	stroop_stim: autoDraw = False
+234.0057 	EXP 	text: autoDraw = True
+234.9949 	EXP 	New trial (rep=0, index=15): <Trial 15 (15 in rep 0) data={'word': 'red', 'color': 'green', 'condition': 'incongruent', 'correct_key': 'g', 'condition_tag': 'STROOP_INCONG', 'thisN': 15, 'thisTrialN': 15, 'thisRepN': 0}>
+235.0206 	EXP 	text: autoDraw = False
+235.0206 	EXP 	text: autoDraw = False
+235.0206 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+235.0206 	EXP 	stroop_stim: height = np.float64(0.05)
+235.0206 	EXP 	stroop_stim: height = np.float64(0.05)
+235.0206 	EXP 	stroop_stim: height = np.float64(0.05)
+235.0206 	EXP 	stroop_stim: text = 'red'
+235.5058 	INFO 	Keyboard events cleared
+235.5055 	EXP 	stroop_stim: autoDraw = True
+236.5046 	EXP 	stroop_stim: autoDraw = False
+237.0213 	EXP 	stroop_stim: autoDraw = False
+237.0213 	EXP 	text: autoDraw = True
+238.0104 	EXP 	New trial (rep=0, index=16): <Trial 16 (16 in rep 0) data={'word': 'yellow', 'color': 'red', 'condition': 'incongruent', 'correct_key': 'r', 'condition_tag': 'STROOP_INCONG', 'thisN': 16, 'thisTrialN': 16, 'thisRepN': 0}>
+238.0360 	EXP 	text: autoDraw = False
+238.0360 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+238.0360 	EXP 	stroop_stim: height = np.float64(0.05)
+238.0360 	EXP 	stroop_stim: height = np.float64(0.05)
+238.0360 	EXP 	stroop_stim: height = np.float64(0.05)
+238.0360 	EXP 	stroop_stim: text = 'yellow'
+238.5057 	INFO 	Keyboard events cleared
+238.5055 	EXP 	stroop_stim: autoDraw = True
+239.5052 	EXP 	stroop_stim: autoDraw = False
+240.0052 	EXP 	stroop_stim: autoDraw = False
+240.0052 	EXP 	text: autoDraw = True
+240.9947 	EXP 	New trial (rep=0, index=17): <Trial 17 (17 in rep 0) data={'word': 'red', 'color': 'yellow', 'condition': 'incongruent', 'correct_key': 'y', 'condition_tag': 'STROOP_INCONG', 'thisN': 17, 'thisTrialN': 17, 'thisRepN': 0}>
+241.0202 	EXP 	text: autoDraw = False
+241.0202 	EXP 	text: autoDraw = False
+241.0202 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: yellow, alpha=1.0>
+241.0202 	EXP 	stroop_stim: height = np.float64(0.05)
+241.0202 	EXP 	stroop_stim: height = np.float64(0.05)
+241.0202 	EXP 	stroop_stim: height = np.float64(0.05)
+241.0202 	EXP 	stroop_stim: text = 'red'
+241.5055 	INFO 	Keyboard events cleared
+241.5053 	EXP 	stroop_stim: autoDraw = True
+242.5043 	EXP 	stroop_stim: autoDraw = False
+243.0052 	EXP 	stroop_stim: autoDraw = False
+243.0052 	EXP 	text: autoDraw = True
+243.9946 	EXP 	New trial (rep=0, index=18): <Trial 18 (18 in rep 0) data={'word': 'red', 'color': 'red', 'condition': 'congruent', 'correct_key': 'r', 'condition_tag': 'STROOP_CONG', 'thisN': 18, 'thisTrialN': 18, 'thisRepN': 0}>
+244.0052 	EXP 	text: autoDraw = False
+244.0052 	EXP 	text: autoDraw = False
+244.0052 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+244.0052 	EXP 	stroop_stim: text = 'red'
+244.5045 	INFO 	Keyboard events cleared
+244.5043 	EXP 	stroop_stim: autoDraw = True
+245.5042 	EXP 	stroop_stim: autoDraw = False
+246.0050 	EXP 	stroop_stim: autoDraw = False
+246.0050 	EXP 	text: autoDraw = True
+246.9943 	EXP 	New trial (rep=0, index=19): <Trial 19 (19 in rep 0) data={'word': 'blue', 'color': 'green', 'condition': 'incongruent', 'correct_key': 'g', 'condition_tag': 'STROOP_INCONG', 'thisN': 19, 'thisTrialN': 19, 'thisRepN': 0}>
+247.0200 	EXP 	text: autoDraw = False
+247.0200 	EXP 	text: autoDraw = False
+247.0200 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+247.0200 	EXP 	stroop_stim: height = np.float64(0.05)
+247.0200 	EXP 	stroop_stim: height = np.float64(0.05)
+247.0200 	EXP 	stroop_stim: height = np.float64(0.05)
+247.0200 	EXP 	stroop_stim: text = 'blue'
+247.5053 	INFO 	Keyboard events cleared
+247.5051 	EXP 	stroop_stim: autoDraw = True
+248.5043 	EXP 	stroop_stim: autoDraw = False
+249.0049 	EXP 	stroop_stim: autoDraw = False
+249.0049 	EXP 	text: autoDraw = True
+249.9942 	EXP 	New trial (rep=0, index=20): <Trial 20 (20 in rep 0) data={'word': 'yellow', 'color': 'yellow', 'condition': 'congruent', 'correct_key': 'y', 'condition_tag': 'STROOP_CONG', 'thisN': 20, 'thisTrialN': 20, 'thisRepN': 0}>
+250.0201 	EXP 	text: autoDraw = False
+250.0201 	EXP 	text: autoDraw = False
+250.0201 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: yellow, alpha=1.0>
+250.0201 	EXP 	stroop_stim: height = np.float64(0.05)
+250.0201 	EXP 	stroop_stim: height = np.float64(0.05)
+250.0201 	EXP 	stroop_stim: height = np.float64(0.05)
+250.0201 	EXP 	stroop_stim: text = 'yellow'
+250.5053 	INFO 	Keyboard events cleared
+250.5050 	EXP 	stroop_stim: autoDraw = True
+251.5044 	EXP 	stroop_stim: autoDraw = False
+252.0215 	EXP 	stroop_stim: autoDraw = False
+252.0215 	EXP 	text: autoDraw = True
+253.0102 	EXP 	New trial (rep=0, index=21): <Trial 21 (21 in rep 0) data={'word': 'blue', 'color': 'yellow', 'condition': 'incongruent', 'correct_key': 'y', 'condition_tag': 'STROOP_INCONG', 'thisN': 21, 'thisTrialN': 21, 'thisRepN': 0}>
+253.0355 	EXP 	text: autoDraw = False
+253.0355 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: yellow, alpha=1.0>
+253.0355 	EXP 	stroop_stim: height = np.float64(0.05)
+253.0355 	EXP 	stroop_stim: height = np.float64(0.05)
+253.0355 	EXP 	stroop_stim: height = np.float64(0.05)
+253.0355 	EXP 	stroop_stim: text = 'blue'
+253.5048 	INFO 	Keyboard events cleared
+253.5046 	EXP 	stroop_stim: autoDraw = True
+254.5044 	EXP 	stroop_stim: autoDraw = False
+255.0048 	EXP 	stroop_stim: autoDraw = False
+255.0048 	EXP 	text: autoDraw = True
+255.9940 	EXP 	New trial (rep=0, index=22): <Trial 22 (22 in rep 0) data={'word': 'blue', 'color': 'yellow', 'condition': 'incongruent', 'correct_key': 'y', 'condition_tag': 'STROOP_INCONG', 'thisN': 22, 'thisTrialN': 22, 'thisRepN': 0}>
+256.0046 	EXP 	text: autoDraw = False
+256.0046 	EXP 	text: autoDraw = False
+256.0046 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: yellow, alpha=1.0>
+256.0046 	EXP 	stroop_stim: text = 'blue'
+256.5048 	INFO 	Keyboard events cleared
+256.5046 	EXP 	stroop_stim: autoDraw = True
+257.5044 	EXP 	stroop_stim: autoDraw = False
+258.0045 	EXP 	stroop_stim: autoDraw = False
+258.0045 	EXP 	text: autoDraw = True
+258.9939 	EXP 	New trial (rep=0, index=23): <Trial 23 (23 in rep 0) data={'word': 'yellow', 'color': 'red', 'condition': 'incongruent', 'correct_key': 'r', 'condition_tag': 'STROOP_INCONG', 'thisN': 23, 'thisTrialN': 23, 'thisRepN': 0}>
+259.0195 	EXP 	text: autoDraw = False
+259.0195 	EXP 	text: autoDraw = False
+259.0195 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+259.0195 	EXP 	stroop_stim: height = np.float64(0.05)
+259.0195 	EXP 	stroop_stim: height = np.float64(0.05)
+259.0195 	EXP 	stroop_stim: height = np.float64(0.05)
+259.0195 	EXP 	stroop_stim: text = 'yellow'
+259.5037 	INFO 	Keyboard events cleared
+259.5035 	EXP 	stroop_stim: autoDraw = True
+260.5035 	EXP 	stroop_stim: autoDraw = False
+261.0044 	EXP 	stroop_stim: autoDraw = False
+261.0044 	EXP 	text: autoDraw = True
+261.9936 	EXP 	New trial (rep=0, index=24): <Trial 24 (24 in rep 0) data={'word': 'red', 'color': 'yellow', 'condition': 'incongruent', 'correct_key': 'y', 'condition_tag': 'STROOP_INCONG', 'thisN': 24, 'thisTrialN': 24, 'thisRepN': 0}>
+262.0193 	EXP 	text: autoDraw = False
+262.0193 	EXP 	text: autoDraw = False
+262.0193 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: yellow, alpha=1.0>
+262.0193 	EXP 	stroop_stim: height = np.float64(0.05)
+262.0193 	EXP 	stroop_stim: height = np.float64(0.05)
+262.0193 	EXP 	stroop_stim: height = np.float64(0.05)
+262.0193 	EXP 	stroop_stim: text = 'red'
+262.5043 	INFO 	Keyboard events cleared
+262.5041 	EXP 	stroop_stim: autoDraw = True
+263.5041 	EXP 	stroop_stim: autoDraw = False
+264.0042 	EXP 	stroop_stim: autoDraw = False
+264.0042 	EXP 	text: autoDraw = True
+264.9937 	EXP 	New trial (rep=0, index=25): <Trial 25 (25 in rep 0) data={'word': 'green', 'color': 'yellow', 'condition': 'incongruent', 'correct_key': 'y', 'condition_tag': 'STROOP_INCONG', 'thisN': 25, 'thisTrialN': 25, 'thisRepN': 0}>
+265.0192 	EXP 	text: autoDraw = False
+265.0192 	EXP 	text: autoDraw = False
+265.0192 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: yellow, alpha=1.0>
+265.0192 	EXP 	stroop_stim: height = np.float64(0.05)
+265.0192 	EXP 	stroop_stim: height = np.float64(0.05)
+265.0192 	EXP 	stroop_stim: height = np.float64(0.05)
+265.0192 	EXP 	stroop_stim: text = 'green'
+265.5045 	INFO 	Keyboard events cleared
+265.5043 	EXP 	stroop_stim: autoDraw = True
+266.5040 	EXP 	stroop_stim: autoDraw = False
+267.0197 	EXP 	stroop_stim: autoDraw = False
+267.0197 	EXP 	text: autoDraw = True
+268.0092 	EXP 	New trial (rep=0, index=26): <Trial 26 (26 in rep 0) data={'word': 'yellow', 'color': 'green', 'condition': 'incongruent', 'correct_key': 'g', 'condition_tag': 'STROOP_INCONG', 'thisN': 26, 'thisTrialN': 26, 'thisRepN': 0}>
+268.0349 	EXP 	text: autoDraw = False
+268.0349 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+268.0349 	EXP 	stroop_stim: height = np.float64(0.05)
+268.0349 	EXP 	stroop_stim: height = np.float64(0.05)
+268.0349 	EXP 	stroop_stim: height = np.float64(0.05)
+268.0349 	EXP 	stroop_stim: text = 'yellow'
+268.5043 	INFO 	Keyboard events cleared
+268.5040 	EXP 	stroop_stim: autoDraw = True
+269.5040 	EXP 	stroop_stim: autoDraw = False
+270.0040 	EXP 	stroop_stim: autoDraw = False
+270.0040 	EXP 	text: autoDraw = True
+270.9933 	EXP 	New trial (rep=0, index=27): <Trial 27 (27 in rep 0) data={'word': 'green', 'color': 'green', 'condition': 'congruent', 'correct_key': 'g', 'condition_tag': 'STROOP_CONG', 'thisN': 27, 'thisTrialN': 27, 'thisRepN': 0}>
+271.0190 	EXP 	text: autoDraw = False
+271.0190 	EXP 	text: autoDraw = False
+271.0190 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+271.0190 	EXP 	stroop_stim: height = np.float64(0.05)
+271.0190 	EXP 	stroop_stim: height = np.float64(0.05)
+271.0190 	EXP 	stroop_stim: height = np.float64(0.05)
+271.0190 	EXP 	stroop_stim: text = 'green'
+271.5039 	INFO 	Keyboard events cleared
+271.5037 	EXP 	stroop_stim: autoDraw = True
+272.5037 	EXP 	stroop_stim: autoDraw = False
+273.0040 	EXP 	stroop_stim: autoDraw = False
+273.0040 	EXP 	text: autoDraw = True
+273.9930 	EXP 	New trial (rep=0, index=28): <Trial 28 (28 in rep 0) data={'word': 'red', 'color': 'red', 'condition': 'congruent', 'correct_key': 'r', 'condition_tag': 'STROOP_CONG', 'thisN': 28, 'thisTrialN': 28, 'thisRepN': 0}>
+274.0188 	EXP 	text: autoDraw = False
+274.0188 	EXP 	text: autoDraw = False
+274.0188 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+274.0188 	EXP 	stroop_stim: height = np.float64(0.05)
+274.0188 	EXP 	stroop_stim: height = np.float64(0.05)
+274.0188 	EXP 	stroop_stim: height = np.float64(0.05)
+274.0188 	EXP 	stroop_stim: text = 'red'
+274.5030 	INFO 	Keyboard events cleared
+274.5028 	EXP 	stroop_stim: autoDraw = True
+275.5029 	EXP 	stroop_stim: autoDraw = False
+276.0038 	EXP 	stroop_stim: autoDraw = False
+276.0038 	EXP 	text: autoDraw = True
+276.9928 	EXP 	New trial (rep=0, index=29): <Trial 29 (29 in rep 0) data={'word': 'yellow', 'color': 'yellow', 'condition': 'congruent', 'correct_key': 'y', 'condition_tag': 'STROOP_CONG', 'thisN': 29, 'thisTrialN': 29, 'thisRepN': 0}>
+277.0187 	EXP 	text: autoDraw = False
+277.0187 	EXP 	text: autoDraw = False
+277.0187 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: yellow, alpha=1.0>
+277.0187 	EXP 	stroop_stim: height = np.float64(0.05)
+277.0187 	EXP 	stroop_stim: height = np.float64(0.05)
+277.0187 	EXP 	stroop_stim: height = np.float64(0.05)
+277.0187 	EXP 	stroop_stim: text = 'yellow'
+277.5037 	INFO 	Keyboard events cleared
+277.5035 	EXP 	stroop_stim: autoDraw = True
+278.5036 	EXP 	stroop_stim: autoDraw = False
+279.0036 	EXP 	stroop_stim: autoDraw = False
+279.0036 	EXP 	text: autoDraw = True
+279.9928 	EXP 	New trial (rep=0, index=30): <Trial 30 (30 in rep 0) data={'word': 'green', 'color': 'red', 'condition': 'incongruent', 'correct_key': 'r', 'condition_tag': 'STROOP_INCONG', 'thisN': 30, 'thisTrialN': 30, 'thisRepN': 0}>
+280.0185 	EXP 	text: autoDraw = False
+280.0185 	EXP 	text: autoDraw = False
+280.0185 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+280.0185 	EXP 	stroop_stim: height = np.float64(0.05)
+280.0185 	EXP 	stroop_stim: height = np.float64(0.05)
+280.0185 	EXP 	stroop_stim: height = np.float64(0.05)
+280.0185 	EXP 	stroop_stim: text = 'green'
+280.5037 	INFO 	Keyboard events cleared
+280.5035 	EXP 	stroop_stim: autoDraw = True
+281.5032 	EXP 	stroop_stim: autoDraw = False
+282.0191 	EXP 	stroop_stim: autoDraw = False
+282.0191 	EXP 	text: autoDraw = True
+283.0092 	EXP 	New trial (rep=0, index=31): <Trial 31 (31 in rep 0) data={'word': 'green', 'color': 'green', 'condition': 'congruent', 'correct_key': 'g', 'condition_tag': 'STROOP_CONG', 'thisN': 31, 'thisTrialN': 31, 'thisRepN': 0}>
+283.0191 	EXP 	text: autoDraw = False
+283.0191 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+283.0191 	EXP 	stroop_stim: text = 'green'
+283.5037 	INFO 	Keyboard events cleared
+283.5035 	EXP 	stroop_stim: autoDraw = True
+284.5032 	EXP 	stroop_stim: autoDraw = False
+285.0033 	EXP 	stroop_stim: autoDraw = False
+285.0033 	EXP 	text: autoDraw = True
+285.9926 	EXP 	New trial (rep=0, index=32): <Trial 32 (32 in rep 0) data={'word': 'blue', 'color': 'yellow', 'condition': 'incongruent', 'correct_key': 'y', 'condition_tag': 'STROOP_INCONG', 'thisN': 32, 'thisTrialN': 32, 'thisRepN': 0}>
+286.0182 	EXP 	text: autoDraw = False
+286.0182 	EXP 	text: autoDraw = False
+286.0182 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: yellow, alpha=1.0>
+286.0182 	EXP 	stroop_stim: height = np.float64(0.05)
+286.0182 	EXP 	stroop_stim: height = np.float64(0.05)
+286.0182 	EXP 	stroop_stim: height = np.float64(0.05)
+286.0182 	EXP 	stroop_stim: text = 'blue'
+286.5033 	INFO 	Keyboard events cleared
+286.5031 	EXP 	stroop_stim: autoDraw = True
+287.5032 	EXP 	stroop_stim: autoDraw = False
+288.0032 	EXP 	stroop_stim: autoDraw = False
+288.0032 	EXP 	text: autoDraw = True
+288.9926 	EXP 	New trial (rep=0, index=33): <Trial 33 (33 in rep 0) data={'word': 'green', 'color': 'blue', 'condition': 'incongruent', 'correct_key': 'b', 'condition_tag': 'STROOP_INCONG', 'thisN': 33, 'thisTrialN': 33, 'thisRepN': 0}>
+289.0182 	EXP 	text: autoDraw = False
+289.0182 	EXP 	text: autoDraw = False
+289.0182 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+289.0182 	EXP 	stroop_stim: height = np.float64(0.05)
+289.0182 	EXP 	stroop_stim: height = np.float64(0.05)
+289.0182 	EXP 	stroop_stim: height = np.float64(0.05)
+289.0182 	EXP 	stroop_stim: text = 'green'
+289.5025 	INFO 	Keyboard events cleared
+289.5023 	EXP 	stroop_stim: autoDraw = True
+290.5021 	EXP 	stroop_stim: autoDraw = False
+291.0030 	EXP 	stroop_stim: autoDraw = False
+291.0030 	EXP 	text: autoDraw = True
+291.9915 	EXP 	New trial (rep=0, index=34): <Trial 34 (34 in rep 0) data={'word': 'green', 'color': 'blue', 'condition': 'incongruent', 'correct_key': 'b', 'condition_tag': 'STROOP_INCONG', 'thisN': 34, 'thisTrialN': 34, 'thisRepN': 0}>
+292.0023 	EXP 	text: autoDraw = False
+292.0023 	EXP 	text: autoDraw = False
+292.0023 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+292.0023 	EXP 	stroop_stim: text = 'green'
+292.5030 	INFO 	Keyboard events cleared
+292.5028 	EXP 	stroop_stim: autoDraw = True
+293.5029 	EXP 	stroop_stim: autoDraw = False
+294.0029 	EXP 	stroop_stim: autoDraw = False
+294.0029 	EXP 	text: autoDraw = True
+294.9923 	EXP 	New trial (rep=0, index=35): <Trial 35 (35 in rep 0) data={'word': 'yellow', 'color': 'red', 'condition': 'incongruent', 'correct_key': 'r', 'condition_tag': 'STROOP_INCONG', 'thisN': 35, 'thisTrialN': 35, 'thisRepN': 0}>
+295.0178 	EXP 	text: autoDraw = False
+295.0178 	EXP 	text: autoDraw = False
+295.0178 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+295.0178 	EXP 	stroop_stim: height = np.float64(0.05)
+295.0178 	EXP 	stroop_stim: height = np.float64(0.05)
+295.0178 	EXP 	stroop_stim: height = np.float64(0.05)
+295.0178 	EXP 	stroop_stim: text = 'yellow'
+295.5031 	INFO 	Keyboard events cleared
+295.5028 	EXP 	stroop_stim: autoDraw = True
+296.5029 	EXP 	stroop_stim: autoDraw = False
+297.0185 	EXP 	stroop_stim: autoDraw = False
+297.0185 	EXP 	text: autoDraw = True
+298.0085 	EXP 	New trial (rep=0, index=36): <Trial 36 (36 in rep 0) data={'word': 'green', 'color': 'green', 'condition': 'congruent', 'correct_key': 'g', 'condition_tag': 'STROOP_CONG', 'thisN': 36, 'thisTrialN': 36, 'thisRepN': 0}>
+298.0335 	EXP 	text: autoDraw = False
+298.0335 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+298.0335 	EXP 	stroop_stim: height = np.float64(0.05)
+298.0335 	EXP 	stroop_stim: height = np.float64(0.05)
+298.0335 	EXP 	stroop_stim: height = np.float64(0.05)
+298.0335 	EXP 	stroop_stim: text = 'green'
+298.5027 	INFO 	Keyboard events cleared
+298.5025 	EXP 	stroop_stim: autoDraw = True
+299.5023 	EXP 	stroop_stim: autoDraw = False
+300.0023 	EXP 	stroop_stim: autoDraw = False
+300.0023 	EXP 	text: autoDraw = True
+300.9920 	EXP 	New trial (rep=0, index=37): <Trial 37 (37 in rep 0) data={'word': 'red', 'color': 'red', 'condition': 'congruent', 'correct_key': 'r', 'condition_tag': 'STROOP_CONG', 'thisN': 37, 'thisTrialN': 37, 'thisRepN': 0}>
+301.0175 	EXP 	text: autoDraw = False
+301.0175 	EXP 	text: autoDraw = False
+301.0175 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+301.0175 	EXP 	stroop_stim: height = np.float64(0.05)
+301.0175 	EXP 	stroop_stim: height = np.float64(0.05)
+301.0175 	EXP 	stroop_stim: height = np.float64(0.05)
+301.0175 	EXP 	stroop_stim: text = 'red'
+301.5025 	INFO 	Keyboard events cleared
+301.5023 	EXP 	stroop_stim: autoDraw = True
+302.5024 	EXP 	stroop_stim: autoDraw = False
+303.0024 	EXP 	stroop_stim: autoDraw = False
+303.0024 	EXP 	text: autoDraw = True
+303.9918 	EXP 	New trial (rep=0, index=38): <Trial 38 (38 in rep 0) data={'word': 'red', 'color': 'red', 'condition': 'congruent', 'correct_key': 'r', 'condition_tag': 'STROOP_CONG', 'thisN': 38, 'thisTrialN': 38, 'thisRepN': 0}>
+304.0021 	EXP 	text: autoDraw = False
+304.0021 	EXP 	text: autoDraw = False
+304.0021 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+304.0021 	EXP 	stroop_stim: text = 'red'
+304.5019 	INFO 	Keyboard events cleared
+304.5017 	EXP 	stroop_stim: autoDraw = True
+305.5014 	EXP 	stroop_stim: autoDraw = False
+306.0024 	EXP 	stroop_stim: autoDraw = False
+306.0024 	EXP 	text: autoDraw = True
+306.9919 	EXP 	New trial (rep=0, index=39): <Trial 39 (39 in rep 0) data={'word': 'green', 'color': 'green', 'condition': 'congruent', 'correct_key': 'g', 'condition_tag': 'STROOP_CONG', 'thisN': 39, 'thisTrialN': 39, 'thisRepN': 0}>
+307.0172 	EXP 	text: autoDraw = False
+307.0172 	EXP 	text: autoDraw = False
+307.0172 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+307.0172 	EXP 	stroop_stim: height = np.float64(0.05)
+307.0172 	EXP 	stroop_stim: height = np.float64(0.05)
+307.0172 	EXP 	stroop_stim: height = np.float64(0.05)
+307.0172 	EXP 	stroop_stim: text = 'green'
+307.5023 	INFO 	Keyboard events cleared
+307.5020 	EXP 	stroop_stim: autoDraw = True
+308.5023 	EXP 	stroop_stim: autoDraw = False
+309.0023 	EXP 	stroop_stim: autoDraw = False
+309.0023 	EXP 	text: autoDraw = True
+309.9915 	EXP 	New trial (rep=0, index=40): <Trial 40 (40 in rep 0) data={'word': 'green', 'color': 'red', 'condition': 'incongruent', 'correct_key': 'r', 'condition_tag': 'STROOP_INCONG', 'thisN': 40, 'thisTrialN': 40, 'thisRepN': 0}>
+310.0023 	EXP 	text: autoDraw = False
+310.0023 	EXP 	text: autoDraw = False
+310.0023 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+310.0023 	EXP 	stroop_stim: text = 'green'
+310.5022 	INFO 	Keyboard events cleared
+310.5020 	EXP 	stroop_stim: autoDraw = True
+311.5021 	EXP 	stroop_stim: autoDraw = False
+312.0018 	EXP 	stroop_stim: autoDraw = False
+312.0018 	EXP 	text: autoDraw = True
+312.9911 	EXP 	New trial (rep=0, index=41): <Trial 41 (41 in rep 0) data={'word': 'blue', 'color': 'red', 'condition': 'incongruent', 'correct_key': 'r', 'condition_tag': 'STROOP_INCONG', 'thisN': 41, 'thisTrialN': 41, 'thisRepN': 0}>
+313.0162 	EXP 	text: autoDraw = False
+313.0162 	EXP 	text: autoDraw = False
+313.0162 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+313.0162 	EXP 	stroop_stim: height = np.float64(0.05)
+313.0162 	EXP 	stroop_stim: height = np.float64(0.05)
+313.0162 	EXP 	stroop_stim: height = np.float64(0.05)
+313.0162 	EXP 	stroop_stim: text = 'blue'
+313.5021 	INFO 	Keyboard events cleared
+313.5019 	EXP 	stroop_stim: autoDraw = True
+314.5019 	EXP 	stroop_stim: autoDraw = False
+315.0019 	EXP 	stroop_stim: autoDraw = False
+315.0019 	EXP 	text: autoDraw = True
+315.9906 	EXP 	New trial (rep=0, index=42): <Trial 42 (42 in rep 0) data={'word': 'red', 'color': 'yellow', 'condition': 'incongruent', 'correct_key': 'y', 'condition_tag': 'STROOP_INCONG', 'thisN': 42, 'thisTrialN': 42, 'thisRepN': 0}>
+316.0169 	EXP 	text: autoDraw = False
+316.0169 	EXP 	text: autoDraw = False
+316.0169 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: yellow, alpha=1.0>
+316.0169 	EXP 	stroop_stim: height = np.float64(0.05)
+316.0169 	EXP 	stroop_stim: height = np.float64(0.05)
+316.0169 	EXP 	stroop_stim: height = np.float64(0.05)
+316.0169 	EXP 	stroop_stim: text = 'red'
+316.5018 	INFO 	Keyboard events cleared
+316.5016 	EXP 	stroop_stim: autoDraw = True
+317.5009 	EXP 	stroop_stim: autoDraw = False
+318.0016 	EXP 	stroop_stim: autoDraw = False
+318.0016 	EXP 	text: autoDraw = True
+318.9910 	EXP 	New trial (rep=0, index=43): <Trial 43 (43 in rep 0) data={'word': 'green', 'color': 'green', 'condition': 'congruent', 'correct_key': 'g', 'condition_tag': 'STROOP_CONG', 'thisN': 43, 'thisTrialN': 43, 'thisRepN': 0}>
+319.0159 	EXP 	text: autoDraw = False
+319.0159 	EXP 	text: autoDraw = False
+319.0159 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+319.0159 	EXP 	stroop_stim: height = np.float64(0.05)
+319.0159 	EXP 	stroop_stim: height = np.float64(0.05)
+319.0159 	EXP 	stroop_stim: height = np.float64(0.05)
+319.0159 	EXP 	stroop_stim: text = 'green'
+319.5012 	INFO 	Keyboard events cleared
+319.5009 	EXP 	stroop_stim: autoDraw = True
+320.5006 	EXP 	stroop_stim: autoDraw = False
+321.0017 	EXP 	stroop_stim: autoDraw = False
+321.0017 	EXP 	text: autoDraw = True
+321.9912 	EXP 	New trial (rep=0, index=44): <Trial 44 (44 in rep 0) data={'word': 'blue', 'color': 'green', 'condition': 'incongruent', 'correct_key': 'g', 'condition_tag': 'STROOP_INCONG', 'thisN': 44, 'thisTrialN': 44, 'thisRepN': 0}>
+322.0164 	EXP 	text: autoDraw = False
+322.0164 	EXP 	text: autoDraw = False
+322.0164 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+322.0164 	EXP 	stroop_stim: height = np.float64(0.05)
+322.0164 	EXP 	stroop_stim: height = np.float64(0.05)
+322.0164 	EXP 	stroop_stim: height = np.float64(0.05)
+322.0164 	EXP 	stroop_stim: text = 'blue'
+322.5018 	INFO 	Keyboard events cleared
+322.5015 	EXP 	stroop_stim: autoDraw = True
+323.5015 	EXP 	stroop_stim: autoDraw = False
+324.0018 	EXP 	stroop_stim: autoDraw = False
+324.0018 	EXP 	text: autoDraw = True
+324.9904 	EXP 	New trial (rep=0, index=45): <Trial 45 (45 in rep 0) data={'word': 'red', 'color': 'red', 'condition': 'congruent', 'correct_key': 'r', 'condition_tag': 'STROOP_CONG', 'thisN': 45, 'thisTrialN': 45, 'thisRepN': 0}>
+325.0163 	EXP 	text: autoDraw = False
+325.0163 	EXP 	text: autoDraw = False
+325.0163 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+325.0163 	EXP 	stroop_stim: height = np.float64(0.05)
+325.0163 	EXP 	stroop_stim: height = np.float64(0.05)
+325.0163 	EXP 	stroop_stim: height = np.float64(0.05)
+325.0163 	EXP 	stroop_stim: text = 'red'
+325.5017 	INFO 	Keyboard events cleared
+325.5015 	EXP 	stroop_stim: autoDraw = True
+326.5014 	EXP 	stroop_stim: autoDraw = False
+327.0172 	EXP 	stroop_stim: autoDraw = False
+327.0172 	EXP 	text: autoDraw = True
+328.0068 	EXP 	New trial (rep=0, index=46): <Trial 46 (46 in rep 0) data={'word': 'blue', 'color': 'red', 'condition': 'incongruent', 'correct_key': 'r', 'condition_tag': 'STROOP_INCONG', 'thisN': 46, 'thisTrialN': 46, 'thisRepN': 0}>
+328.0317 	EXP 	text: autoDraw = False
+328.0317 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+328.0317 	EXP 	stroop_stim: height = np.float64(0.05)
+328.0317 	EXP 	stroop_stim: height = np.float64(0.05)
+328.0317 	EXP 	stroop_stim: height = np.float64(0.05)
+328.0317 	EXP 	stroop_stim: text = 'blue'
+328.5013 	INFO 	Keyboard events cleared
+328.5011 	EXP 	stroop_stim: autoDraw = True
+329.5012 	EXP 	stroop_stim: autoDraw = False
+330.0013 	EXP 	stroop_stim: autoDraw = False
+330.0013 	EXP 	text: autoDraw = True
+330.9907 	EXP 	New trial (rep=0, index=47): <Trial 47 (47 in rep 0) data={'word': 'red', 'color': 'green', 'condition': 'incongruent', 'correct_key': 'g', 'condition_tag': 'STROOP_INCONG', 'thisN': 47, 'thisTrialN': 47, 'thisRepN': 0}>
+331.0162 	EXP 	text: autoDraw = False
+331.0162 	EXP 	text: autoDraw = False
+331.0162 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+331.0162 	EXP 	stroop_stim: height = np.float64(0.05)
+331.0162 	EXP 	stroop_stim: height = np.float64(0.05)
+331.0162 	EXP 	stroop_stim: height = np.float64(0.05)
+331.0162 	EXP 	stroop_stim: text = 'red'
+331.5011 	INFO 	Keyboard events cleared
+331.5009 	EXP 	stroop_stim: autoDraw = True
+332.5011 	EXP 	stroop_stim: autoDraw = False
+333.0011 	EXP 	stroop_stim: autoDraw = False
+333.0011 	EXP 	text: autoDraw = True
+333.9905 	EXP 	New trial (rep=0, index=48): <Trial 48 (48 in rep 0) data={'word': 'green', 'color': 'green', 'condition': 'congruent', 'correct_key': 'g', 'condition_tag': 'STROOP_CONG', 'thisN': 48, 'thisTrialN': 48, 'thisRepN': 0}>
+334.0160 	EXP 	text: autoDraw = False
+334.0160 	EXP 	text: autoDraw = False
+334.0160 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+334.0160 	EXP 	stroop_stim: height = np.float64(0.05)
+334.0160 	EXP 	stroop_stim: height = np.float64(0.05)
+334.0160 	EXP 	stroop_stim: height = np.float64(0.05)
+334.0160 	EXP 	stroop_stim: text = 'green'
+334.5002 	INFO 	Keyboard events cleared
+334.5000 	EXP 	stroop_stim: autoDraw = True
+335.5000 	EXP 	stroop_stim: autoDraw = False
+336.0011 	EXP 	stroop_stim: autoDraw = False
+336.0011 	EXP 	text: autoDraw = True
+336.9904 	EXP 	New trial (rep=0, index=49): <Trial 49 (49 in rep 0) data={'word': 'green', 'color': 'yellow', 'condition': 'incongruent', 'correct_key': 'y', 'condition_tag': 'STROOP_INCONG', 'thisN': 49, 'thisTrialN': 49, 'thisRepN': 0}>
+337.0006 	EXP 	text: autoDraw = False
+337.0006 	EXP 	text: autoDraw = False
+337.0006 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: yellow, alpha=1.0>
+337.0006 	EXP 	stroop_stim: text = 'green'
+337.5010 	INFO 	Keyboard events cleared
+337.5008 	EXP 	stroop_stim: autoDraw = True
+338.5008 	EXP 	stroop_stim: autoDraw = False
+339.0009 	EXP 	stroop_stim: autoDraw = False
+339.0009 	EXP 	text: autoDraw = True
+339.9900 	EXP 	New trial (rep=0, index=50): <Trial 50 (50 in rep 0) data={'word': 'blue', 'color': 'blue', 'condition': 'congruent', 'correct_key': 'b', 'condition_tag': 'STROOP_CONG', 'thisN': 50, 'thisTrialN': 50, 'thisRepN': 0}>
+340.0157 	EXP 	text: autoDraw = False
+340.0157 	EXP 	text: autoDraw = False
+340.0157 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+340.0157 	EXP 	stroop_stim: height = np.float64(0.05)
+340.0157 	EXP 	stroop_stim: height = np.float64(0.05)
+340.0157 	EXP 	stroop_stim: height = np.float64(0.05)
+340.0157 	EXP 	stroop_stim: text = 'blue'
+340.5008 	INFO 	Keyboard events cleared
+340.5006 	EXP 	stroop_stim: autoDraw = True
+341.5006 	EXP 	stroop_stim: autoDraw = False
+342.0173 	EXP 	stroop_stim: autoDraw = False
+342.0173 	EXP 	text: autoDraw = True
+343.0057 	EXP 	New trial (rep=0, index=51): <Trial 51 (51 in rep 0) data={'word': 'blue', 'color': 'yellow', 'condition': 'incongruent', 'correct_key': 'y', 'condition_tag': 'STROOP_INCONG', 'thisN': 51, 'thisTrialN': 51, 'thisRepN': 0}>
+343.0163 	EXP 	text: autoDraw = False
+343.0163 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: yellow, alpha=1.0>
+343.0163 	EXP 	stroop_stim: text = 'blue'
+343.5008 	INFO 	Keyboard events cleared
+343.5006 	EXP 	stroop_stim: autoDraw = True
+344.5004 	EXP 	stroop_stim: autoDraw = False
+345.0004 	EXP 	stroop_stim: autoDraw = False
+345.0004 	EXP 	text: autoDraw = True
+345.9899 	EXP 	New trial (rep=0, index=52): <Trial 52 (52 in rep 0) data={'word': 'yellow', 'color': 'yellow', 'condition': 'congruent', 'correct_key': 'y', 'condition_tag': 'STROOP_CONG', 'thisN': 52, 'thisTrialN': 52, 'thisRepN': 0}>
+346.0155 	EXP 	text: autoDraw = False
+346.0155 	EXP 	text: autoDraw = False
+346.0155 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: yellow, alpha=1.0>
+346.0155 	EXP 	stroop_stim: height = np.float64(0.05)
+346.0155 	EXP 	stroop_stim: height = np.float64(0.05)
+346.0155 	EXP 	stroop_stim: height = np.float64(0.05)
+346.0155 	EXP 	stroop_stim: text = 'yellow'
+346.5006 	INFO 	Keyboard events cleared
+346.5004 	EXP 	stroop_stim: autoDraw = True
+347.5003 	EXP 	stroop_stim: autoDraw = False
+348.0002 	EXP 	stroop_stim: autoDraw = False
+348.0002 	EXP 	text: autoDraw = True
+348.9899 	EXP 	New trial (rep=0, index=53): <Trial 53 (53 in rep 0) data={'word': 'yellow', 'color': 'yellow', 'condition': 'congruent', 'correct_key': 'y', 'condition_tag': 'STROOP_CONG', 'thisN': 53, 'thisTrialN': 53, 'thisRepN': 0}>
+349.0002 	EXP 	text: autoDraw = False
+349.0002 	EXP 	text: autoDraw = False
+349.0002 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: yellow, alpha=1.0>
+349.0002 	EXP 	stroop_stim: text = 'yellow'
+349.5004 	INFO 	Keyboard events cleared
+349.5001 	EXP 	stroop_stim: autoDraw = True
+350.4992 	EXP 	stroop_stim: autoDraw = False
+351.0000 	EXP 	stroop_stim: autoDraw = False
+351.0000 	EXP 	text: autoDraw = True
+351.9897 	EXP 	New trial (rep=0, index=54): <Trial 54 (54 in rep 0) data={'word': 'red', 'color': 'yellow', 'condition': 'incongruent', 'correct_key': 'y', 'condition_tag': 'STROOP_INCONG', 'thisN': 54, 'thisTrialN': 54, 'thisRepN': 0}>
+352.0151 	EXP 	text: autoDraw = False
+352.0151 	EXP 	text: autoDraw = False
+352.0151 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: yellow, alpha=1.0>
+352.0151 	EXP 	stroop_stim: height = np.float64(0.05)
+352.0151 	EXP 	stroop_stim: height = np.float64(0.05)
+352.0151 	EXP 	stroop_stim: height = np.float64(0.05)
+352.0151 	EXP 	stroop_stim: text = 'red'
+352.5002 	INFO 	Keyboard events cleared
+352.5000 	EXP 	stroop_stim: autoDraw = True
+353.4999 	EXP 	stroop_stim: autoDraw = False
+354.0002 	EXP 	stroop_stim: autoDraw = False
+354.0002 	EXP 	text: autoDraw = True
+354.9892 	EXP 	New trial (rep=0, index=55): <Trial 55 (55 in rep 0) data={'word': 'blue', 'color': 'blue', 'condition': 'congruent', 'correct_key': 'b', 'condition_tag': 'STROOP_CONG', 'thisN': 55, 'thisTrialN': 55, 'thisRepN': 0}>
+355.0150 	EXP 	text: autoDraw = False
+355.0150 	EXP 	text: autoDraw = False
+355.0150 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+355.0150 	EXP 	stroop_stim: height = np.float64(0.05)
+355.0150 	EXP 	stroop_stim: height = np.float64(0.05)
+355.0150 	EXP 	stroop_stim: height = np.float64(0.05)
+355.0150 	EXP 	stroop_stim: text = 'blue'
+355.5001 	INFO 	Keyboard events cleared
+355.4998 	EXP 	stroop_stim: autoDraw = True
+356.4998 	EXP 	stroop_stim: autoDraw = False
+356.9998 	EXP 	stroop_stim: autoDraw = False
+356.9998 	EXP 	text: autoDraw = True
+357.9883 	EXP 	New trial (rep=0, index=56): <Trial 56 (56 in rep 0) data={'word': 'blue', 'color': 'blue', 'condition': 'congruent', 'correct_key': 'b', 'condition_tag': 'STROOP_CONG', 'thisN': 56, 'thisTrialN': 56, 'thisRepN': 0}>
+357.9989 	EXP 	text: autoDraw = False
+357.9989 	EXP 	text: autoDraw = False
+357.9989 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+357.9989 	EXP 	stroop_stim: text = 'blue'
+358.4999 	INFO 	Keyboard events cleared
+358.4997 	EXP 	stroop_stim: autoDraw = True
+359.4996 	EXP 	stroop_stim: autoDraw = False
+359.9997 	EXP 	stroop_stim: autoDraw = False
+359.9997 	EXP 	text: autoDraw = True
+360.9893 	EXP 	New trial (rep=0, index=57): <Trial 57 (57 in rep 0) data={'word': 'green', 'color': 'red', 'condition': 'incongruent', 'correct_key': 'r', 'condition_tag': 'STROOP_INCONG', 'thisN': 57, 'thisTrialN': 57, 'thisRepN': 0}>
+361.0147 	EXP 	text: autoDraw = False
+361.0147 	EXP 	text: autoDraw = False
+361.0147 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+361.0147 	EXP 	stroop_stim: height = np.float64(0.05)
+361.0147 	EXP 	stroop_stim: height = np.float64(0.05)
+361.0147 	EXP 	stroop_stim: height = np.float64(0.05)
+361.0147 	EXP 	stroop_stim: text = 'green'
+361.4996 	INFO 	Keyboard events cleared
+361.4994 	EXP 	stroop_stim: autoDraw = True
+362.4994 	EXP 	stroop_stim: autoDraw = False
+362.9995 	EXP 	stroop_stim: autoDraw = False
+362.9995 	EXP 	text: autoDraw = True
+363.9891 	EXP 	New trial (rep=0, index=58): <Trial 58 (58 in rep 0) data={'word': 'green', 'color': 'red', 'condition': 'incongruent', 'correct_key': 'r', 'condition_tag': 'STROOP_INCONG', 'thisN': 58, 'thisTrialN': 58, 'thisRepN': 0}>
+363.9995 	EXP 	text: autoDraw = False
+363.9995 	EXP 	text: autoDraw = False
+363.9995 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+363.9995 	EXP 	stroop_stim: text = 'green'
+364.4996 	INFO 	Keyboard events cleared
+364.4993 	EXP 	stroop_stim: autoDraw = True
+365.4993 	EXP 	stroop_stim: autoDraw = False
+365.9993 	EXP 	stroop_stim: autoDraw = False
+365.9993 	EXP 	text: autoDraw = True
+366.9890 	EXP 	New trial (rep=0, index=59): <Trial 59 (59 in rep 0) data={'word': 'yellow', 'color': 'yellow', 'condition': 'congruent', 'correct_key': 'y', 'condition_tag': 'STROOP_CONG', 'thisN': 59, 'thisTrialN': 59, 'thisRepN': 0}>
+367.0145 	EXP 	text: autoDraw = False
+367.0145 	EXP 	text: autoDraw = False
+367.0145 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: yellow, alpha=1.0>
+367.0145 	EXP 	stroop_stim: height = np.float64(0.05)
+367.0145 	EXP 	stroop_stim: height = np.float64(0.05)
+367.0145 	EXP 	stroop_stim: height = np.float64(0.05)
+367.0145 	EXP 	stroop_stim: text = 'yellow'
+367.4994 	INFO 	Keyboard events cleared
+367.4992 	EXP 	stroop_stim: autoDraw = True
+368.4992 	EXP 	stroop_stim: autoDraw = False
+369.0316 	EXP 	stroop_stim: autoDraw = False
+369.0316 	EXP 	text: autoDraw = True
+370.0051 	EXP 	New trial (rep=0, index=60): <Trial 60 (60 in rep 0) data={'word': 'yellow', 'color': 'green', 'condition': 'incongruent', 'correct_key': 'g', 'condition_tag': 'STROOP_INCONG', 'thisN': 60, 'thisTrialN': 60, 'thisRepN': 0}>
+370.0159 	EXP 	text: autoDraw = False
+370.0159 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+370.0159 	EXP 	stroop_stim: text = 'yellow'
+370.4993 	INFO 	Keyboard events cleared
+370.4991 	EXP 	stroop_stim: autoDraw = True
+371.4993 	EXP 	stroop_stim: autoDraw = False
+371.9987 	EXP 	stroop_stim: autoDraw = False
+371.9987 	EXP 	text: autoDraw = True
+372.9887 	EXP 	New trial (rep=0, index=61): <Trial 61 (61 in rep 0) data={'word': 'yellow', 'color': 'yellow', 'condition': 'congruent', 'correct_key': 'y', 'condition_tag': 'STROOP_CONG', 'thisN': 61, 'thisTrialN': 61, 'thisRepN': 0}>
+372.9990 	EXP 	text: autoDraw = False
+372.9990 	EXP 	text: autoDraw = False
+372.9990 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: yellow, alpha=1.0>
+372.9990 	EXP 	stroop_stim: text = 'yellow'
+373.3567 	DATA 	Mouse: Left button down, pos=(355,336)
+373.4991 	INFO 	Keyboard events cleared
+373.4989 	EXP 	stroop_stim: autoDraw = True
+373.5734 	DATA 	Mouse:  Left button up, pos=(355,336)
+374.4989 	EXP 	stroop_stim: autoDraw = False
+374.9990 	EXP 	stroop_stim: autoDraw = False
+374.9990 	EXP 	text: autoDraw = True
+375.9885 	EXP 	New trial (rep=0, index=62): <Trial 62 (62 in rep 0) data={'word': 'yellow', 'color': 'yellow', 'condition': 'congruent', 'correct_key': 'y', 'condition_tag': 'STROOP_CONG', 'thisN': 62, 'thisTrialN': 62, 'thisRepN': 0}>
+375.9989 	EXP 	text: autoDraw = False
+375.9989 	EXP 	text: autoDraw = False
+375.9989 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: yellow, alpha=1.0>
+375.9989 	EXP 	stroop_stim: text = 'yellow'
+376.4990 	INFO 	Keyboard events cleared
+376.4988 	EXP 	stroop_stim: autoDraw = True
+377.4987 	EXP 	stroop_stim: autoDraw = False
+377.9988 	EXP 	stroop_stim: autoDraw = False
+377.9988 	EXP 	text: autoDraw = True
+378.9884 	EXP 	New trial (rep=0, index=63): <Trial 63 (63 in rep 0) data={'word': 'blue', 'color': 'blue', 'condition': 'congruent', 'correct_key': 'b', 'condition_tag': 'STROOP_CONG', 'thisN': 63, 'thisTrialN': 63, 'thisRepN': 0}>
+379.0129 	EXP 	text: autoDraw = False
+379.0129 	EXP 	text: autoDraw = False
+379.0129 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+379.0129 	EXP 	stroop_stim: height = np.float64(0.05)
+379.0129 	EXP 	stroop_stim: height = np.float64(0.05)
+379.0129 	EXP 	stroop_stim: height = np.float64(0.05)
+379.0129 	EXP 	stroop_stim: text = 'blue'
+379.5157 	INFO 	Keyboard events cleared
+379.5155 	EXP 	stroop_stim: autoDraw = True
+380.5154 	EXP 	stroop_stim: autoDraw = False
+381.0155 	EXP 	stroop_stim: autoDraw = False
+381.0155 	EXP 	text: autoDraw = True
+382.0045 	EXP 	New trial (rep=0, index=64): <Trial 64 (64 in rep 0) data={'word': 'red', 'color': 'red', 'condition': 'congruent', 'correct_key': 'r', 'condition_tag': 'STROOP_CONG', 'thisN': 64, 'thisTrialN': 64, 'thisRepN': 0}>
+382.0303 	EXP 	text: autoDraw = False
+382.0303 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+382.0303 	EXP 	stroop_stim: height = np.float64(0.05)
+382.0303 	EXP 	stroop_stim: height = np.float64(0.05)
+382.0303 	EXP 	stroop_stim: height = np.float64(0.05)
+382.0303 	EXP 	stroop_stim: text = 'red'
+382.5155 	INFO 	Keyboard events cleared
+382.5153 	EXP 	stroop_stim: autoDraw = True
+383.5152 	EXP 	stroop_stim: autoDraw = False
+384.0153 	EXP 	stroop_stim: autoDraw = False
+384.0153 	EXP 	text: autoDraw = True
+385.0044 	EXP 	New trial (rep=0, index=65): <Trial 65 (65 in rep 0) data={'word': 'red', 'color': 'yellow', 'condition': 'incongruent', 'correct_key': 'y', 'condition_tag': 'STROOP_INCONG', 'thisN': 65, 'thisTrialN': 65, 'thisRepN': 0}>
+385.0152 	EXP 	text: autoDraw = False
+385.0152 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: yellow, alpha=1.0>
+385.0152 	EXP 	stroop_stim: text = 'red'
+385.5154 	INFO 	Keyboard events cleared
+385.5152 	EXP 	stroop_stim: autoDraw = True
+386.5153 	EXP 	stroop_stim: autoDraw = False
+387.0142 	EXP 	stroop_stim: autoDraw = False
+387.0142 	EXP 	text: autoDraw = True
+388.0034 	EXP 	New trial (rep=0, index=66): <Trial 66 (66 in rep 0) data={'word': 'red', 'color': 'red', 'condition': 'congruent', 'correct_key': 'r', 'condition_tag': 'STROOP_CONG', 'thisN': 66, 'thisTrialN': 66, 'thisRepN': 0}>
+388.0144 	EXP 	text: autoDraw = False
+388.0144 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+388.0144 	EXP 	stroop_stim: text = 'red'
+388.5153 	INFO 	Keyboard events cleared
+388.5151 	EXP 	stroop_stim: autoDraw = True
+389.5150 	EXP 	stroop_stim: autoDraw = False
+390.0143 	EXP 	stroop_stim: autoDraw = False
+390.0143 	EXP 	text: autoDraw = True
+391.0041 	EXP 	New trial (rep=0, index=67): <Trial 67 (67 in rep 0) data={'word': 'blue', 'color': 'blue', 'condition': 'congruent', 'correct_key': 'b', 'condition_tag': 'STROOP_CONG', 'thisN': 67, 'thisTrialN': 67, 'thisRepN': 0}>
+391.0302 	EXP 	text: autoDraw = False
+391.0302 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+391.0302 	EXP 	stroop_stim: height = np.float64(0.05)
+391.0302 	EXP 	stroop_stim: height = np.float64(0.05)
+391.0302 	EXP 	stroop_stim: height = np.float64(0.05)
+391.0302 	EXP 	stroop_stim: text = 'blue'
+391.5151 	INFO 	Keyboard events cleared
+391.5149 	EXP 	stroop_stim: autoDraw = True
+392.5149 	EXP 	stroop_stim: autoDraw = False
+393.0149 	EXP 	stroop_stim: autoDraw = False
+393.0149 	EXP 	text: autoDraw = True
+394.0042 	EXP 	New trial (rep=0, index=68): <Trial 68 (68 in rep 0) data={'word': 'blue', 'color': 'blue', 'condition': 'congruent', 'correct_key': 'b', 'condition_tag': 'STROOP_CONG', 'thisN': 68, 'thisTrialN': 68, 'thisRepN': 0}>
+394.0149 	EXP 	text: autoDraw = False
+394.0149 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+394.0149 	EXP 	stroop_stim: text = 'blue'
+394.5150 	INFO 	Keyboard events cleared
+394.5148 	EXP 	stroop_stim: autoDraw = True
+395.5140 	EXP 	stroop_stim: autoDraw = False
+396.0146 	EXP 	stroop_stim: autoDraw = False
+396.0146 	EXP 	text: autoDraw = True
+397.0039 	EXP 	New trial (rep=0, index=69): <Trial 69 (69 in rep 0) data={'word': 'green', 'color': 'green', 'condition': 'congruent', 'correct_key': 'g', 'condition_tag': 'STROOP_CONG', 'thisN': 69, 'thisTrialN': 69, 'thisRepN': 0}>
+397.0298 	EXP 	text: autoDraw = False
+397.0298 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+397.0298 	EXP 	stroop_stim: height = np.float64(0.05)
+397.0298 	EXP 	stroop_stim: height = np.float64(0.05)
+397.0298 	EXP 	stroop_stim: height = np.float64(0.05)
+397.0298 	EXP 	stroop_stim: text = 'green'
+397.5142 	INFO 	Keyboard events cleared
+397.5140 	EXP 	stroop_stim: autoDraw = True
+398.5146 	EXP 	stroop_stim: autoDraw = False
+399.0144 	EXP 	stroop_stim: autoDraw = False
+399.0144 	EXP 	text: autoDraw = True
+400.0038 	EXP 	New trial (rep=0, index=70): <Trial 70 (70 in rep 0) data={'word': 'yellow', 'color': 'green', 'condition': 'incongruent', 'correct_key': 'g', 'condition_tag': 'STROOP_INCONG', 'thisN': 70, 'thisTrialN': 70, 'thisRepN': 0}>
+400.0297 	EXP 	text: autoDraw = False
+400.0297 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+400.0297 	EXP 	stroop_stim: height = np.float64(0.05)
+400.0297 	EXP 	stroop_stim: height = np.float64(0.05)
+400.0297 	EXP 	stroop_stim: height = np.float64(0.05)
+400.0297 	EXP 	stroop_stim: text = 'yellow'
+400.5148 	INFO 	Keyboard events cleared
+400.5146 	EXP 	stroop_stim: autoDraw = True
+401.5143 	EXP 	stroop_stim: autoDraw = False
+402.0143 	EXP 	stroop_stim: autoDraw = False
+402.0143 	EXP 	text: autoDraw = True
+403.0036 	EXP 	New trial (rep=0, index=71): <Trial 71 (71 in rep 0) data={'word': 'green', 'color': 'green', 'condition': 'congruent', 'correct_key': 'g', 'condition_tag': 'STROOP_CONG', 'thisN': 71, 'thisTrialN': 71, 'thisRepN': 0}>
+403.0295 	EXP 	text: autoDraw = False
+403.0295 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+403.0295 	EXP 	stroop_stim: height = np.float64(0.05)
+403.0295 	EXP 	stroop_stim: height = np.float64(0.05)
+403.0295 	EXP 	stroop_stim: height = np.float64(0.05)
+403.0295 	EXP 	stroop_stim: text = 'green'
+403.5145 	INFO 	Keyboard events cleared
+403.5142 	EXP 	stroop_stim: autoDraw = True
+404.5143 	EXP 	stroop_stim: autoDraw = False
+405.0137 	EXP 	stroop_stim: autoDraw = False
+405.0137 	EXP 	text: autoDraw = True
+406.0034 	EXP 	New trial (rep=0, index=72): <Trial 72 (72 in rep 0) data={'word': 'yellow', 'color': 'blue', 'condition': 'incongruent', 'correct_key': 'b', 'condition_tag': 'STROOP_INCONG', 'thisN': 72, 'thisTrialN': 72, 'thisRepN': 0}>
+406.0283 	EXP 	text: autoDraw = False
+406.0283 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+406.0283 	EXP 	stroop_stim: height = np.float64(0.05)
+406.0283 	EXP 	stroop_stim: height = np.float64(0.05)
+406.0283 	EXP 	stroop_stim: height = np.float64(0.05)
+406.0283 	EXP 	stroop_stim: text = 'yellow'
+406.5143 	INFO 	Keyboard events cleared
+406.5141 	EXP 	stroop_stim: autoDraw = True
+407.5143 	EXP 	stroop_stim: autoDraw = False
+408.0141 	EXP 	stroop_stim: autoDraw = False
+408.0141 	EXP 	text: autoDraw = True
+409.0033 	EXP 	New trial (rep=0, index=73): <Trial 73 (73 in rep 0) data={'word': 'red', 'color': 'green', 'condition': 'incongruent', 'correct_key': 'g', 'condition_tag': 'STROOP_INCONG', 'thisN': 73, 'thisTrialN': 73, 'thisRepN': 0}>
+409.0291 	EXP 	text: autoDraw = False
+409.0291 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+409.0291 	EXP 	stroop_stim: height = np.float64(0.05)
+409.0291 	EXP 	stroop_stim: height = np.float64(0.05)
+409.0291 	EXP 	stroop_stim: height = np.float64(0.05)
+409.0291 	EXP 	stroop_stim: text = 'red'
+409.5143 	INFO 	Keyboard events cleared
+409.5140 	EXP 	stroop_stim: autoDraw = True
+410.5131 	EXP 	stroop_stim: autoDraw = False
+411.0140 	EXP 	stroop_stim: autoDraw = False
+411.0140 	EXP 	text: autoDraw = True
+412.0033 	EXP 	New trial (rep=0, index=74): <Trial 74 (74 in rep 0) data={'word': 'red', 'color': 'blue', 'condition': 'incongruent', 'correct_key': 'b', 'condition_tag': 'STROOP_INCONG', 'thisN': 74, 'thisTrialN': 74, 'thisRepN': 0}>
+412.0140 	EXP 	text: autoDraw = False
+412.0140 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+412.0140 	EXP 	stroop_stim: text = 'red'
+412.5136 	INFO 	Keyboard events cleared
+412.5133 	EXP 	stroop_stim: autoDraw = True
+413.5139 	EXP 	stroop_stim: autoDraw = False
+414.0139 	EXP 	stroop_stim: autoDraw = False
+414.0139 	EXP 	text: autoDraw = True
+415.0030 	EXP 	New trial (rep=0, index=75): <Trial 75 (75 in rep 0) data={'word': 'green', 'color': 'yellow', 'condition': 'incongruent', 'correct_key': 'y', 'condition_tag': 'STROOP_INCONG', 'thisN': 75, 'thisTrialN': 75, 'thisRepN': 0}>
+415.0289 	EXP 	text: autoDraw = False
+415.0289 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: yellow, alpha=1.0>
+415.0289 	EXP 	stroop_stim: height = np.float64(0.05)
+415.0289 	EXP 	stroop_stim: height = np.float64(0.05)
+415.0289 	EXP 	stroop_stim: height = np.float64(0.05)
+415.0289 	EXP 	stroop_stim: text = 'green'
+415.5139 	INFO 	Keyboard events cleared
+415.5137 	EXP 	stroop_stim: autoDraw = True
+416.5138 	EXP 	stroop_stim: autoDraw = False
+417.0137 	EXP 	stroop_stim: autoDraw = False
+417.0137 	EXP 	text: autoDraw = True
+418.0019 	EXP 	New trial (rep=0, index=76): <Trial 76 (76 in rep 0) data={'word': 'blue', 'color': 'red', 'condition': 'incongruent', 'correct_key': 'r', 'condition_tag': 'STROOP_INCONG', 'thisN': 76, 'thisTrialN': 76, 'thisRepN': 0}>
+418.0132 	EXP 	text: autoDraw = False
+418.0132 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+418.0132 	EXP 	stroop_stim: height = np.float64(0.05)
+418.0132 	EXP 	stroop_stim: height = np.float64(0.05)
+418.0132 	EXP 	stroop_stim: height = np.float64(0.05)
+418.0132 	EXP 	stroop_stim: text = 'blue'
+418.5137 	INFO 	Keyboard events cleared
+418.5135 	EXP 	stroop_stim: autoDraw = True
+419.5136 	EXP 	stroop_stim: autoDraw = False
+420.0127 	EXP 	stroop_stim: autoDraw = False
+420.0127 	EXP 	text: autoDraw = True
+421.0021 	EXP 	New trial (rep=0, index=77): <Trial 77 (77 in rep 0) data={'word': 'green', 'color': 'green', 'condition': 'congruent', 'correct_key': 'g', 'condition_tag': 'STROOP_CONG', 'thisN': 77, 'thisTrialN': 77, 'thisRepN': 0}>
+421.0278 	EXP 	text: autoDraw = False
+421.0278 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+421.0278 	EXP 	stroop_stim: height = np.float64(0.05)
+421.0278 	EXP 	stroop_stim: height = np.float64(0.05)
+421.0278 	EXP 	stroop_stim: height = np.float64(0.05)
+421.0278 	EXP 	stroop_stim: text = 'green'
+421.5137 	INFO 	Keyboard events cleared
+421.5135 	EXP 	stroop_stim: autoDraw = True
+422.5135 	EXP 	stroop_stim: autoDraw = False
+423.0137 	EXP 	stroop_stim: autoDraw = False
+423.0137 	EXP 	text: autoDraw = True
+424.0028 	EXP 	New trial (rep=0, index=78): <Trial 78 (78 in rep 0) data={'word': 'blue', 'color': 'yellow', 'condition': 'incongruent', 'correct_key': 'y', 'condition_tag': 'STROOP_INCONG', 'thisN': 78, 'thisTrialN': 78, 'thisRepN': 0}>
+424.0284 	EXP 	text: autoDraw = False
+424.0284 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: yellow, alpha=1.0>
+424.0284 	EXP 	stroop_stim: height = np.float64(0.05)
+424.0284 	EXP 	stroop_stim: height = np.float64(0.05)
+424.0284 	EXP 	stroop_stim: height = np.float64(0.05)
+424.0284 	EXP 	stroop_stim: text = 'blue'
+424.5137 	INFO 	Keyboard events cleared
+424.5135 	EXP 	stroop_stim: autoDraw = True
+425.5126 	EXP 	stroop_stim: autoDraw = False
+426.0133 	EXP 	stroop_stim: autoDraw = False
+426.0133 	EXP 	text: autoDraw = True
+427.0025 	EXP 	New trial (rep=0, index=79): <Trial 79 (79 in rep 0) data={'word': 'red', 'color': 'red', 'condition': 'congruent', 'correct_key': 'r', 'condition_tag': 'STROOP_CONG', 'thisN': 79, 'thisTrialN': 79, 'thisRepN': 0}>
+427.0283 	EXP 	text: autoDraw = False
+427.0283 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+427.0283 	EXP 	stroop_stim: height = np.float64(0.05)
+427.0283 	EXP 	stroop_stim: height = np.float64(0.05)
+427.0283 	EXP 	stroop_stim: height = np.float64(0.05)
+427.0283 	EXP 	stroop_stim: text = 'red'
+427.5124 	INFO 	Keyboard events cleared
+427.5122 	EXP 	stroop_stim: autoDraw = True
+428.5132 	EXP 	stroop_stim: autoDraw = False
+429.0132 	EXP 	stroop_stim: autoDraw = False
+429.0132 	EXP 	text: autoDraw = True
+430.0022 	EXP 	New trial (rep=0, index=80): <Trial 80 (80 in rep 0) data={'word': 'red', 'color': 'red', 'condition': 'congruent', 'correct_key': 'r', 'condition_tag': 'STROOP_CONG', 'thisN': 80, 'thisTrialN': 80, 'thisRepN': 0}>
+430.0131 	EXP 	text: autoDraw = False
+430.0131 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+430.0131 	EXP 	stroop_stim: text = 'red'
+430.5132 	INFO 	Keyboard events cleared
+430.5129 	EXP 	stroop_stim: autoDraw = True
+431.5131 	EXP 	stroop_stim: autoDraw = False
+432.0129 	EXP 	stroop_stim: autoDraw = False
+432.0129 	EXP 	text: autoDraw = True
+433.0022 	EXP 	New trial (rep=0, index=81): <Trial 81 (81 in rep 0) data={'word': 'green', 'color': 'yellow', 'condition': 'incongruent', 'correct_key': 'y', 'condition_tag': 'STROOP_INCONG', 'thisN': 81, 'thisTrialN': 81, 'thisRepN': 0}>
+433.0279 	EXP 	text: autoDraw = False
+433.0279 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: yellow, alpha=1.0>
+433.0279 	EXP 	stroop_stim: height = np.float64(0.05)
+433.0279 	EXP 	stroop_stim: height = np.float64(0.05)
+433.0279 	EXP 	stroop_stim: height = np.float64(0.05)
+433.0279 	EXP 	stroop_stim: text = 'green'
+433.5130 	INFO 	Keyboard events cleared
+433.5127 	EXP 	stroop_stim: autoDraw = True
+434.5130 	EXP 	stroop_stim: autoDraw = False
+435.0119 	EXP 	stroop_stim: autoDraw = False
+435.0119 	EXP 	text: autoDraw = True
+436.0026 	EXP 	New trial (rep=0, index=82): <Trial 82 (82 in rep 0) data={'word': 'blue', 'color': 'blue', 'condition': 'congruent', 'correct_key': 'b', 'condition_tag': 'STROOP_CONG', 'thisN': 82, 'thisTrialN': 82, 'thisRepN': 0}>
+436.0272 	EXP 	text: autoDraw = False
+436.0272 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+436.0272 	EXP 	stroop_stim: height = np.float64(0.05)
+436.0272 	EXP 	stroop_stim: height = np.float64(0.05)
+436.0272 	EXP 	stroop_stim: height = np.float64(0.05)
+436.0272 	EXP 	stroop_stim: text = 'blue'
+436.5128 	INFO 	Keyboard events cleared
+436.5126 	EXP 	stroop_stim: autoDraw = True
+437.5127 	EXP 	stroop_stim: autoDraw = False
+438.0128 	EXP 	stroop_stim: autoDraw = False
+438.0128 	EXP 	text: autoDraw = True
+439.0019 	EXP 	New trial (rep=0, index=83): <Trial 83 (83 in rep 0) data={'word': 'red', 'color': 'blue', 'condition': 'incongruent', 'correct_key': 'b', 'condition_tag': 'STROOP_INCONG', 'thisN': 83, 'thisTrialN': 83, 'thisRepN': 0}>
+439.0278 	EXP 	text: autoDraw = False
+439.0278 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+439.0278 	EXP 	stroop_stim: height = np.float64(0.05)
+439.0278 	EXP 	stroop_stim: height = np.float64(0.05)
+439.0278 	EXP 	stroop_stim: height = np.float64(0.05)
+439.0278 	EXP 	stroop_stim: text = 'red'
+439.5127 	INFO 	Keyboard events cleared
+439.5125 	EXP 	stroop_stim: autoDraw = True
+440.5126 	EXP 	stroop_stim: autoDraw = False
+441.0127 	EXP 	stroop_stim: autoDraw = False
+441.0127 	EXP 	text: autoDraw = True
+442.0019 	EXP 	New trial (rep=0, index=84): <Trial 84 (84 in rep 0) data={'word': 'yellow', 'color': 'blue', 'condition': 'incongruent', 'correct_key': 'b', 'condition_tag': 'STROOP_INCONG', 'thisN': 84, 'thisTrialN': 84, 'thisRepN': 0}>
+442.0277 	EXP 	text: autoDraw = False
+442.0277 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+442.0277 	EXP 	stroop_stim: height = np.float64(0.05)
+442.0277 	EXP 	stroop_stim: height = np.float64(0.05)
+442.0277 	EXP 	stroop_stim: height = np.float64(0.05)
+442.0277 	EXP 	stroop_stim: text = 'yellow'
+442.5120 	INFO 	Keyboard events cleared
+442.5118 	EXP 	stroop_stim: autoDraw = True
+443.5115 	EXP 	stroop_stim: autoDraw = False
+444.0123 	EXP 	stroop_stim: autoDraw = False
+444.0123 	EXP 	text: autoDraw = True
+445.0020 	EXP 	New trial (rep=0, index=85): <Trial 85 (85 in rep 0) data={'word': 'blue', 'color': 'blue', 'condition': 'congruent', 'correct_key': 'b', 'condition_tag': 'STROOP_CONG', 'thisN': 85, 'thisTrialN': 85, 'thisRepN': 0}>
+445.0276 	EXP 	text: autoDraw = False
+445.0276 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+445.0276 	EXP 	stroop_stim: height = np.float64(0.05)
+445.0276 	EXP 	stroop_stim: height = np.float64(0.05)
+445.0276 	EXP 	stroop_stim: height = np.float64(0.05)
+445.0276 	EXP 	stroop_stim: text = 'blue'
+445.5125 	INFO 	Keyboard events cleared
+445.5123 	EXP 	stroop_stim: autoDraw = True
+446.5123 	EXP 	stroop_stim: autoDraw = False
+447.0116 	EXP 	stroop_stim: autoDraw = False
+447.0116 	EXP 	text: autoDraw = True
+448.0016 	EXP 	New trial (rep=0, index=86): <Trial 86 (86 in rep 0) data={'word': 'red', 'color': 'red', 'condition': 'congruent', 'correct_key': 'r', 'condition_tag': 'STROOP_CONG', 'thisN': 86, 'thisTrialN': 86, 'thisRepN': 0}>
+448.0273 	EXP 	text: autoDraw = False
+448.0273 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+448.0273 	EXP 	stroop_stim: height = np.float64(0.05)
+448.0273 	EXP 	stroop_stim: height = np.float64(0.05)
+448.0273 	EXP 	stroop_stim: height = np.float64(0.05)
+448.0273 	EXP 	stroop_stim: text = 'red'
+448.5124 	INFO 	Keyboard events cleared
+448.5121 	EXP 	stroop_stim: autoDraw = True
+449.5123 	EXP 	stroop_stim: autoDraw = False
+450.0280 	EXP 	stroop_stim: autoDraw = False
+450.0280 	EXP 	text: autoDraw = True
+451.0013 	EXP 	New trial (rep=0, index=87): <Trial 87 (87 in rep 0) data={'word': 'yellow', 'color': 'yellow', 'condition': 'congruent', 'correct_key': 'y', 'condition_tag': 'STROOP_CONG', 'thisN': 87, 'thisTrialN': 87, 'thisRepN': 0}>
+451.0264 	EXP 	text: autoDraw = False
+451.0264 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: yellow, alpha=1.0>
+451.0264 	EXP 	stroop_stim: height = np.float64(0.05)
+451.0264 	EXP 	stroop_stim: height = np.float64(0.05)
+451.0264 	EXP 	stroop_stim: height = np.float64(0.05)
+451.0264 	EXP 	stroop_stim: text = 'yellow'
+451.5125 	INFO 	Keyboard events cleared
+451.5123 	EXP 	stroop_stim: autoDraw = True
+452.5114 	EXP 	stroop_stim: autoDraw = False
+453.0121 	EXP 	stroop_stim: autoDraw = False
+453.0121 	EXP 	text: autoDraw = True
+454.0015 	EXP 	New trial (rep=0, index=88): <Trial 88 (88 in rep 0) data={'word': 'red', 'color': 'red', 'condition': 'congruent', 'correct_key': 'r', 'condition_tag': 'STROOP_CONG', 'thisN': 88, 'thisTrialN': 88, 'thisRepN': 0}>
+454.0271 	EXP 	text: autoDraw = False
+454.0271 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+454.0271 	EXP 	stroop_stim: height = np.float64(0.05)
+454.0271 	EXP 	stroop_stim: height = np.float64(0.05)
+454.0271 	EXP 	stroop_stim: height = np.float64(0.05)
+454.0271 	EXP 	stroop_stim: text = 'red'
+454.5122 	INFO 	Keyboard events cleared
+454.5120 	EXP 	stroop_stim: autoDraw = True
+455.5117 	EXP 	stroop_stim: autoDraw = False
+456.0119 	EXP 	stroop_stim: autoDraw = False
+456.0119 	EXP 	text: autoDraw = True
+457.0013 	EXP 	New trial (rep=0, index=89): <Trial 89 (89 in rep 0) data={'word': 'blue', 'color': 'blue', 'condition': 'congruent', 'correct_key': 'b', 'condition_tag': 'STROOP_CONG', 'thisN': 89, 'thisTrialN': 89, 'thisRepN': 0}>
+457.0268 	EXP 	text: autoDraw = False
+457.0268 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+457.0268 	EXP 	stroop_stim: height = np.float64(0.05)
+457.0268 	EXP 	stroop_stim: height = np.float64(0.05)
+457.0268 	EXP 	stroop_stim: height = np.float64(0.05)
+457.0268 	EXP 	stroop_stim: text = 'blue'
+457.5112 	INFO 	Keyboard events cleared
+457.5110 	EXP 	stroop_stim: autoDraw = True
+458.5108 	EXP 	stroop_stim: autoDraw = False
+459.0118 	EXP 	stroop_stim: autoDraw = False
+459.0118 	EXP 	text: autoDraw = True
+460.0009 	EXP 	New trial (rep=0, index=90): <Trial 90 (90 in rep 0) data={'word': 'green', 'color': 'green', 'condition': 'congruent', 'correct_key': 'g', 'condition_tag': 'STROOP_CONG', 'thisN': 90, 'thisTrialN': 90, 'thisRepN': 0}>
+460.0267 	EXP 	text: autoDraw = False
+460.0267 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+460.0267 	EXP 	stroop_stim: height = np.float64(0.05)
+460.0267 	EXP 	stroop_stim: height = np.float64(0.05)
+460.0267 	EXP 	stroop_stim: height = np.float64(0.05)
+460.0267 	EXP 	stroop_stim: text = 'green'
+460.5118 	INFO 	Keyboard events cleared
+460.5116 	EXP 	stroop_stim: autoDraw = True
+461.5115 	EXP 	stroop_stim: autoDraw = False
+462.0116 	EXP 	stroop_stim: autoDraw = False
+462.0116 	EXP 	text: autoDraw = True
+463.0011 	EXP 	New trial (rep=0, index=91): <Trial 91 (91 in rep 0) data={'word': 'yellow', 'color': 'blue', 'condition': 'incongruent', 'correct_key': 'b', 'condition_tag': 'STROOP_INCONG', 'thisN': 91, 'thisTrialN': 91, 'thisRepN': 0}>
+463.0267 	EXP 	text: autoDraw = False
+463.0267 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+463.0267 	EXP 	stroop_stim: height = np.float64(0.05)
+463.0267 	EXP 	stroop_stim: height = np.float64(0.05)
+463.0267 	EXP 	stroop_stim: height = np.float64(0.05)
+463.0267 	EXP 	stroop_stim: text = 'yellow'
+463.5118 	INFO 	Keyboard events cleared
+463.5116 	EXP 	stroop_stim: autoDraw = True
+464.5115 	EXP 	stroop_stim: autoDraw = False
+465.0280 	EXP 	stroop_stim: autoDraw = False
+465.0280 	EXP 	text: autoDraw = True
+466.0169 	EXP 	New trial (rep=0, index=92): <Trial 92 (92 in rep 0) data={'word': 'green', 'color': 'green', 'condition': 'congruent', 'correct_key': 'g', 'condition_tag': 'STROOP_CONG', 'thisN': 92, 'thisTrialN': 92, 'thisRepN': 0}>
+466.0420 	EXP 	text: autoDraw = False
+466.0420 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+466.0420 	EXP 	stroop_stim: height = np.float64(0.05)
+466.0420 	EXP 	stroop_stim: height = np.float64(0.05)
+466.0420 	EXP 	stroop_stim: height = np.float64(0.05)
+466.0420 	EXP 	stroop_stim: text = 'green'
+466.5117 	INFO 	Keyboard events cleared
+466.5115 	EXP 	stroop_stim: autoDraw = True
+467.5116 	EXP 	stroop_stim: autoDraw = False
+468.0115 	EXP 	stroop_stim: autoDraw = False
+468.0115 	EXP 	text: autoDraw = True
+469.0007 	EXP 	New trial (rep=0, index=93): <Trial 93 (93 in rep 0) data={'word': 'red', 'color': 'blue', 'condition': 'incongruent', 'correct_key': 'b', 'condition_tag': 'STROOP_INCONG', 'thisN': 93, 'thisTrialN': 93, 'thisRepN': 0}>
+469.0264 	EXP 	text: autoDraw = False
+469.0264 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+469.0264 	EXP 	stroop_stim: height = np.float64(0.05)
+469.0264 	EXP 	stroop_stim: height = np.float64(0.05)
+469.0264 	EXP 	stroop_stim: height = np.float64(0.05)
+469.0264 	EXP 	stroop_stim: text = 'red'
+469.5114 	INFO 	Keyboard events cleared
+469.5112 	EXP 	stroop_stim: autoDraw = True
+470.5271 	EXP 	stroop_stim: autoDraw = False
+471.0112 	EXP 	stroop_stim: autoDraw = False
+471.0112 	EXP 	text: autoDraw = True
+472.0007 	EXP 	New trial (rep=0, index=94): <Trial 94 (94 in rep 0) data={'word': 'green', 'color': 'blue', 'condition': 'incongruent', 'correct_key': 'b', 'condition_tag': 'STROOP_INCONG', 'thisN': 94, 'thisTrialN': 94, 'thisRepN': 0}>
+472.0255 	EXP 	text: autoDraw = False
+472.0255 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+472.0255 	EXP 	stroop_stim: height = np.float64(0.05)
+472.0255 	EXP 	stroop_stim: height = np.float64(0.05)
+472.0255 	EXP 	stroop_stim: height = np.float64(0.05)
+472.0255 	EXP 	stroop_stim: text = 'green'
+472.5115 	INFO 	Keyboard events cleared
+472.5113 	EXP 	stroop_stim: autoDraw = True
+473.5268 	EXP 	stroop_stim: autoDraw = False
+474.0109 	EXP 	stroop_stim: autoDraw = False
+474.0109 	EXP 	text: autoDraw = True
+475.0003 	EXP 	New trial (rep=0, index=95): <Trial 95 (95 in rep 0) data={'word': 'blue', 'color': 'red', 'condition': 'incongruent', 'correct_key': 'r', 'condition_tag': 'STROOP_INCONG', 'thisN': 95, 'thisTrialN': 95, 'thisRepN': 0}>
+475.0260 	EXP 	text: autoDraw = False
+475.0260 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+475.0260 	EXP 	stroop_stim: height = np.float64(0.05)
+475.0260 	EXP 	stroop_stim: height = np.float64(0.05)
+475.0260 	EXP 	stroop_stim: height = np.float64(0.05)
+475.0260 	EXP 	stroop_stim: text = 'blue'
+475.5438 	INFO 	Keyboard events cleared
+475.5434 	EXP 	stroop_stim: autoDraw = True
+476.5440 	EXP 	stroop_stim: autoDraw = False
+477.0262 	EXP 	stroop_stim: autoDraw = False
+477.0262 	EXP 	text: autoDraw = True
+478.0169 	EXP 	New trial (rep=0, index=96): <Trial 96 (96 in rep 0) data={'word': 'blue', 'color': 'blue', 'condition': 'congruent', 'correct_key': 'b', 'condition_tag': 'STROOP_CONG', 'thisN': 96, 'thisTrialN': 96, 'thisRepN': 0}>
+478.0274 	EXP 	text: autoDraw = False
+478.0274 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+478.0274 	EXP 	stroop_stim: text = 'blue'
+478.5112 	INFO 	Keyboard events cleared
+478.5110 	EXP 	stroop_stim: autoDraw = True
+479.5109 	EXP 	stroop_stim: autoDraw = False
+480.0273 	EXP 	stroop_stim: autoDraw = False
+480.0273 	EXP 	text: autoDraw = True
+481.0158 	EXP 	New trial (rep=0, index=97): <Trial 97 (97 in rep 0) data={'word': 'yellow', 'color': 'blue', 'condition': 'incongruent', 'correct_key': 'b', 'condition_tag': 'STROOP_INCONG', 'thisN': 97, 'thisTrialN': 97, 'thisRepN': 0}>
+481.0415 	EXP 	text: autoDraw = False
+481.0415 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+481.0415 	EXP 	stroop_stim: height = np.float64(0.05)
+481.0415 	EXP 	stroop_stim: height = np.float64(0.05)
+481.0415 	EXP 	stroop_stim: height = np.float64(0.05)
+481.0415 	EXP 	stroop_stim: text = 'yellow'
+481.5426 	INFO 	Keyboard events cleared
+481.5424 	EXP 	stroop_stim: autoDraw = True
+482.5436 	EXP 	stroop_stim: autoDraw = False
+483.0271 	EXP 	stroop_stim: autoDraw = False
+483.0271 	EXP 	text: autoDraw = True
+484.0166 	EXP 	New trial (rep=0, index=98): <Trial 98 (98 in rep 0) data={'word': 'blue', 'color': 'blue', 'condition': 'congruent', 'correct_key': 'b', 'condition_tag': 'STROOP_CONG', 'thisN': 98, 'thisTrialN': 98, 'thisRepN': 0}>
+484.0423 	EXP 	text: autoDraw = False
+484.0423 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+484.0423 	EXP 	stroop_stim: height = np.float64(0.05)
+484.0423 	EXP 	stroop_stim: height = np.float64(0.05)
+484.0423 	EXP 	stroop_stim: height = np.float64(0.05)
+484.0423 	EXP 	stroop_stim: text = 'blue'
+484.5106 	INFO 	Keyboard events cleared
+484.5104 	EXP 	stroop_stim: autoDraw = True
+485.5106 	EXP 	stroop_stim: autoDraw = False
+486.0105 	EXP 	stroop_stim: autoDraw = False
+486.0105 	EXP 	text: autoDraw = True
+487.0001 	EXP 	New trial (rep=0, index=99): <Trial 99 (99 in rep 0) data={'word': 'blue', 'color': 'blue', 'condition': 'congruent', 'correct_key': 'b', 'condition_tag': 'STROOP_CONG', 'thisN': 99, 'thisTrialN': 99, 'thisRepN': 0}>
+487.0104 	EXP 	text: autoDraw = False
+487.0104 	EXP 	text: autoDraw = False
+487.0104 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+487.0104 	EXP 	stroop_stim: text = 'blue'
+487.5105 	INFO 	Keyboard events cleared
+487.5103 	EXP 	stroop_stim: autoDraw = True
+488.5093 	EXP 	stroop_stim: autoDraw = False
+489.0421 	EXP 	stroop_stim: autoDraw = False
+489.0421 	EXP 	text: autoDraw = True
+490.0164 	EXP 	New trial (rep=0, index=100): <Trial 100 (100 in rep 0) data={'word': 'green', 'color': 'blue', 'condition': 'incongruent', 'correct_key': 'b', 'condition_tag': 'STROOP_INCONG', 'thisN': 100, 'thisTrialN': 100, 'thisRepN': 0}>
+490.0419 	EXP 	text: autoDraw = False
+490.0419 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+490.0419 	EXP 	stroop_stim: height = np.float64(0.05)
+490.0419 	EXP 	stroop_stim: height = np.float64(0.05)
+490.0419 	EXP 	stroop_stim: height = np.float64(0.05)
+490.0419 	EXP 	stroop_stim: text = 'green'
+490.5103 	INFO 	Keyboard events cleared
+490.5101 	EXP 	stroop_stim: autoDraw = True
+491.5102 	EXP 	stroop_stim: autoDraw = False
+492.0101 	EXP 	stroop_stim: autoDraw = False
+492.0101 	EXP 	text: autoDraw = True
+492.9995 	EXP 	New trial (rep=0, index=101): <Trial 101 (101 in rep 0) data={'word': 'green', 'color': 'red', 'condition': 'incongruent', 'correct_key': 'r', 'condition_tag': 'STROOP_INCONG', 'thisN': 101, 'thisTrialN': 101, 'thisRepN': 0}>
+493.0101 	EXP 	text: autoDraw = False
+493.0101 	EXP 	text: autoDraw = False
+493.0101 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+493.0101 	EXP 	stroop_stim: text = 'green'
+493.5105 	INFO 	Keyboard events cleared
+493.5102 	EXP 	stroop_stim: autoDraw = True
+494.5096 	EXP 	stroop_stim: autoDraw = False
+495.0099 	EXP 	stroop_stim: autoDraw = False
+495.0099 	EXP 	text: autoDraw = True
+495.9984 	EXP 	New trial (rep=0, index=102): <Trial 102 (102 in rep 0) data={'word': 'yellow', 'color': 'yellow', 'condition': 'congruent', 'correct_key': 'y', 'condition_tag': 'STROOP_CONG', 'thisN': 102, 'thisTrialN': 102, 'thisRepN': 0}>
+496.0239 	EXP 	text: autoDraw = False
+496.0239 	EXP 	text: autoDraw = False
+496.0239 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: yellow, alpha=1.0>
+496.0239 	EXP 	stroop_stim: height = np.float64(0.05)
+496.0239 	EXP 	stroop_stim: height = np.float64(0.05)
+496.0239 	EXP 	stroop_stim: height = np.float64(0.05)
+496.0239 	EXP 	stroop_stim: text = 'yellow'
+496.5102 	INFO 	Keyboard events cleared
+496.5099 	EXP 	stroop_stim: autoDraw = True
+497.5090 	EXP 	stroop_stim: autoDraw = False
+498.0099 	EXP 	stroop_stim: autoDraw = False
+498.0099 	EXP 	text: autoDraw = True
+498.9994 	EXP 	New trial (rep=0, index=103): <Trial 103 (103 in rep 0) data={'word': 'blue', 'color': 'blue', 'condition': 'congruent', 'correct_key': 'b', 'condition_tag': 'STROOP_CONG', 'thisN': 103, 'thisTrialN': 103, 'thisRepN': 0}>
+499.0249 	EXP 	text: autoDraw = False
+499.0249 	EXP 	text: autoDraw = False
+499.0249 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+499.0249 	EXP 	stroop_stim: height = np.float64(0.05)
+499.0249 	EXP 	stroop_stim: height = np.float64(0.05)
+499.0249 	EXP 	stroop_stim: height = np.float64(0.05)
+499.0249 	EXP 	stroop_stim: text = 'blue'
+499.5100 	INFO 	Keyboard events cleared
+499.5098 	EXP 	stroop_stim: autoDraw = True
+500.5097 	EXP 	stroop_stim: autoDraw = False
+501.0096 	EXP 	stroop_stim: autoDraw = False
+501.0096 	EXP 	text: autoDraw = True
+501.9993 	EXP 	New trial (rep=0, index=104): <Trial 104 (104 in rep 0) data={'word': 'blue', 'color': 'blue', 'condition': 'congruent', 'correct_key': 'b', 'condition_tag': 'STROOP_CONG', 'thisN': 104, 'thisTrialN': 104, 'thisRepN': 0}>
+502.0098 	EXP 	text: autoDraw = False
+502.0098 	EXP 	text: autoDraw = False
+502.0098 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+502.0098 	EXP 	stroop_stim: text = 'blue'
+502.5092 	INFO 	Keyboard events cleared
+502.5090 	EXP 	stroop_stim: autoDraw = True
+503.5087 	EXP 	stroop_stim: autoDraw = False
+504.0095 	EXP 	stroop_stim: autoDraw = False
+504.0095 	EXP 	text: autoDraw = True
+504.9989 	EXP 	New trial (rep=0, index=105): <Trial 105 (105 in rep 0) data={'word': 'green', 'color': 'blue', 'condition': 'incongruent', 'correct_key': 'b', 'condition_tag': 'STROOP_INCONG', 'thisN': 105, 'thisTrialN': 105, 'thisRepN': 0}>
+505.0246 	EXP 	text: autoDraw = False
+505.0246 	EXP 	text: autoDraw = False
+505.0246 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+505.0246 	EXP 	stroop_stim: height = np.float64(0.05)
+505.0246 	EXP 	stroop_stim: height = np.float64(0.05)
+505.0246 	EXP 	stroop_stim: height = np.float64(0.05)
+505.0246 	EXP 	stroop_stim: text = 'green'
+505.5098 	INFO 	Keyboard events cleared
+505.5095 	EXP 	stroop_stim: autoDraw = True
+506.5085 	EXP 	stroop_stim: autoDraw = False
+507.0094 	EXP 	stroop_stim: autoDraw = False
+507.0094 	EXP 	text: autoDraw = True
+507.9990 	EXP 	New trial (rep=0, index=106): <Trial 106 (106 in rep 0) data={'word': 'blue', 'color': 'green', 'condition': 'incongruent', 'correct_key': 'g', 'condition_tag': 'STROOP_INCONG', 'thisN': 106, 'thisTrialN': 106, 'thisRepN': 0}>
+508.0244 	EXP 	text: autoDraw = False
+508.0244 	EXP 	text: autoDraw = False
+508.0244 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+508.0244 	EXP 	stroop_stim: height = np.float64(0.05)
+508.0244 	EXP 	stroop_stim: height = np.float64(0.05)
+508.0244 	EXP 	stroop_stim: height = np.float64(0.05)
+508.0244 	EXP 	stroop_stim: text = 'blue'
+508.5095 	INFO 	Keyboard events cleared
+508.5092 	EXP 	stroop_stim: autoDraw = True
+509.5090 	EXP 	stroop_stim: autoDraw = False
+510.0093 	EXP 	stroop_stim: autoDraw = False
+510.0093 	EXP 	text: autoDraw = True
+510.9984 	EXP 	New trial (rep=0, index=107): <Trial 107 (107 in rep 0) data={'word': 'red', 'color': 'red', 'condition': 'congruent', 'correct_key': 'r', 'condition_tag': 'STROOP_CONG', 'thisN': 107, 'thisTrialN': 107, 'thisRepN': 0}>
+511.0233 	EXP 	text: autoDraw = False
+511.0233 	EXP 	text: autoDraw = False
+511.0233 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+511.0233 	EXP 	stroop_stim: height = np.float64(0.05)
+511.0233 	EXP 	stroop_stim: height = np.float64(0.05)
+511.0233 	EXP 	stroop_stim: height = np.float64(0.05)
+511.0233 	EXP 	stroop_stim: text = 'red'
+511.5093 	INFO 	Keyboard events cleared
+511.5090 	EXP 	stroop_stim: autoDraw = True
+512.5092 	EXP 	stroop_stim: autoDraw = False
+513.0086 	EXP 	stroop_stim: autoDraw = False
+513.0086 	EXP 	text: autoDraw = True
+513.9984 	EXP 	New trial (rep=0, index=108): <Trial 108 (108 in rep 0) data={'word': 'blue', 'color': 'green', 'condition': 'incongruent', 'correct_key': 'g', 'condition_tag': 'STROOP_INCONG', 'thisN': 108, 'thisTrialN': 108, 'thisRepN': 0}>
+514.0242 	EXP 	text: autoDraw = False
+514.0242 	EXP 	text: autoDraw = False
+514.0242 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+514.0242 	EXP 	stroop_stim: height = np.float64(0.05)
+514.0242 	EXP 	stroop_stim: height = np.float64(0.05)
+514.0242 	EXP 	stroop_stim: height = np.float64(0.05)
+514.0242 	EXP 	stroop_stim: text = 'blue'
+514.5092 	INFO 	Keyboard events cleared
+514.5090 	EXP 	stroop_stim: autoDraw = True
+515.5090 	EXP 	stroop_stim: autoDraw = False
+516.0088 	EXP 	stroop_stim: autoDraw = False
+516.0088 	EXP 	text: autoDraw = True
+516.9985 	EXP 	New trial (rep=0, index=109): <Trial 109 (109 in rep 0) data={'word': 'green', 'color': 'green', 'condition': 'congruent', 'correct_key': 'g', 'condition_tag': 'STROOP_CONG', 'thisN': 109, 'thisTrialN': 109, 'thisRepN': 0}>
+517.0241 	EXP 	text: autoDraw = False
+517.0241 	EXP 	text: autoDraw = False
+517.0241 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+517.0241 	EXP 	stroop_stim: height = np.float64(0.05)
+517.0241 	EXP 	stroop_stim: height = np.float64(0.05)
+517.0241 	EXP 	stroop_stim: height = np.float64(0.05)
+517.0241 	EXP 	stroop_stim: text = 'green'
+517.5091 	INFO 	Keyboard events cleared
+517.5088 	EXP 	stroop_stim: autoDraw = True
+518.5089 	EXP 	stroop_stim: autoDraw = False
+519.0088 	EXP 	stroop_stim: autoDraw = False
+519.0088 	EXP 	text: autoDraw = True
+519.9985 	EXP 	New trial (rep=0, index=110): <Trial 110 (110 in rep 0) data={'word': 'green', 'color': 'green', 'condition': 'congruent', 'correct_key': 'g', 'condition_tag': 'STROOP_CONG', 'thisN': 110, 'thisTrialN': 110, 'thisRepN': 0}>
+520.0088 	EXP 	text: autoDraw = False
+520.0088 	EXP 	text: autoDraw = False
+520.0088 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+520.0088 	EXP 	stroop_stim: text = 'green'
+520.5084 	INFO 	Keyboard events cleared
+520.5082 	EXP 	stroop_stim: autoDraw = True
+521.5088 	EXP 	stroop_stim: autoDraw = False
+522.0088 	EXP 	stroop_stim: autoDraw = False
+522.0088 	EXP 	text: autoDraw = True
+522.9978 	EXP 	New trial (rep=0, index=111): <Trial 111 (111 in rep 0) data={'word': 'blue', 'color': 'blue', 'condition': 'congruent', 'correct_key': 'b', 'condition_tag': 'STROOP_CONG', 'thisN': 111, 'thisTrialN': 111, 'thisRepN': 0}>
+523.0237 	EXP 	text: autoDraw = False
+523.0237 	EXP 	text: autoDraw = False
+523.0237 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+523.0237 	EXP 	stroop_stim: height = np.float64(0.05)
+523.0237 	EXP 	stroop_stim: height = np.float64(0.05)
+523.0237 	EXP 	stroop_stim: height = np.float64(0.05)
+523.0237 	EXP 	stroop_stim: text = 'blue'
+523.5088 	INFO 	Keyboard events cleared
+523.5086 	EXP 	stroop_stim: autoDraw = True
+524.5086 	EXP 	stroop_stim: autoDraw = False
+525.0085 	EXP 	stroop_stim: autoDraw = False
+525.0085 	EXP 	text: autoDraw = True
+525.9972 	EXP 	New trial (rep=0, index=112): <Trial 112 (112 in rep 0) data={'word': 'red', 'color': 'red', 'condition': 'congruent', 'correct_key': 'r', 'condition_tag': 'STROOP_CONG', 'thisN': 112, 'thisTrialN': 112, 'thisRepN': 0}>
+526.0078 	EXP 	text: autoDraw = False
+526.0078 	EXP 	text: autoDraw = False
+526.0078 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+526.0078 	EXP 	stroop_stim: height = np.float64(0.05)
+526.0078 	EXP 	stroop_stim: height = np.float64(0.05)
+526.0078 	EXP 	stroop_stim: height = np.float64(0.05)
+526.0078 	EXP 	stroop_stim: text = 'red'
+526.5086 	INFO 	Keyboard events cleared
+526.5084 	EXP 	stroop_stim: autoDraw = True
+527.5084 	EXP 	stroop_stim: autoDraw = False
+528.0079 	EXP 	stroop_stim: autoDraw = False
+528.0079 	EXP 	text: autoDraw = True
+528.9981 	EXP 	New trial (rep=0, index=113): <Trial 113 (113 in rep 0) data={'word': 'yellow', 'color': 'red', 'condition': 'incongruent', 'correct_key': 'r', 'condition_tag': 'STROOP_INCONG', 'thisN': 113, 'thisTrialN': 113, 'thisRepN': 0}>
+529.0236 	EXP 	text: autoDraw = False
+529.0236 	EXP 	text: autoDraw = False
+529.0236 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+529.0236 	EXP 	stroop_stim: height = np.float64(0.05)
+529.0236 	EXP 	stroop_stim: height = np.float64(0.05)
+529.0236 	EXP 	stroop_stim: height = np.float64(0.05)
+529.0236 	EXP 	stroop_stim: text = 'yellow'
+529.5086 	INFO 	Keyboard events cleared
+529.5083 	EXP 	stroop_stim: autoDraw = True
+530.5075 	EXP 	stroop_stim: autoDraw = False
+531.0078 	EXP 	stroop_stim: autoDraw = False
+531.0078 	EXP 	text: autoDraw = True
+531.9977 	EXP 	New trial (rep=0, index=114): <Trial 114 (114 in rep 0) data={'word': 'yellow', 'color': 'red', 'condition': 'incongruent', 'correct_key': 'r', 'condition_tag': 'STROOP_INCONG', 'thisN': 114, 'thisTrialN': 114, 'thisRepN': 0}>
+532.0081 	EXP 	text: autoDraw = False
+532.0081 	EXP 	text: autoDraw = False
+532.0081 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+532.0081 	EXP 	stroop_stim: text = 'yellow'
+532.5084 	INFO 	Keyboard events cleared
+532.5082 	EXP 	stroop_stim: autoDraw = True
+533.5081 	EXP 	stroop_stim: autoDraw = False
+534.0081 	EXP 	stroop_stim: autoDraw = False
+534.0081 	EXP 	text: autoDraw = True
+534.9977 	EXP 	New trial (rep=0, index=115): <Trial 115 (115 in rep 0) data={'word': 'blue', 'color': 'red', 'condition': 'incongruent', 'correct_key': 'r', 'condition_tag': 'STROOP_INCONG', 'thisN': 115, 'thisTrialN': 115, 'thisRepN': 0}>
+535.0232 	EXP 	text: autoDraw = False
+535.0232 	EXP 	text: autoDraw = False
+535.0232 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+535.0232 	EXP 	stroop_stim: height = np.float64(0.05)
+535.0232 	EXP 	stroop_stim: height = np.float64(0.05)
+535.0232 	EXP 	stroop_stim: height = np.float64(0.05)
+535.0232 	EXP 	stroop_stim: text = 'blue'
+535.5077 	INFO 	Keyboard events cleared
+535.5075 	EXP 	stroop_stim: autoDraw = True
+536.5077 	EXP 	stroop_stim: autoDraw = False
+537.0080 	EXP 	stroop_stim: autoDraw = False
+537.0080 	EXP 	text: autoDraw = True
+537.9978 	EXP 	New trial (rep=0, index=116): <Trial 116 (116 in rep 0) data={'word': 'green', 'color': 'green', 'condition': 'congruent', 'correct_key': 'g', 'condition_tag': 'STROOP_CONG', 'thisN': 116, 'thisTrialN': 116, 'thisRepN': 0}>
+538.0232 	EXP 	text: autoDraw = False
+538.0232 	EXP 	text: autoDraw = False
+538.0232 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+538.0232 	EXP 	stroop_stim: height = np.float64(0.05)
+538.0232 	EXP 	stroop_stim: height = np.float64(0.05)
+538.0232 	EXP 	stroop_stim: height = np.float64(0.05)
+538.0232 	EXP 	stroop_stim: text = 'green'
+538.5081 	INFO 	Keyboard events cleared
+538.5079 	EXP 	stroop_stim: autoDraw = True
+539.5078 	EXP 	stroop_stim: autoDraw = False
+540.0078 	EXP 	stroop_stim: autoDraw = False
+540.0078 	EXP 	text: autoDraw = True
+540.9973 	EXP 	New trial (rep=0, index=117): <Trial 117 (117 in rep 0) data={'word': 'yellow', 'color': 'green', 'condition': 'incongruent', 'correct_key': 'g', 'condition_tag': 'STROOP_INCONG', 'thisN': 117, 'thisTrialN': 117, 'thisRepN': 0}>
+541.0229 	EXP 	text: autoDraw = False
+541.0229 	EXP 	text: autoDraw = False
+541.0229 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+541.0229 	EXP 	stroop_stim: height = np.float64(0.05)
+541.0229 	EXP 	stroop_stim: height = np.float64(0.05)
+541.0229 	EXP 	stroop_stim: height = np.float64(0.05)
+541.0229 	EXP 	stroop_stim: text = 'yellow'
+541.5080 	INFO 	Keyboard events cleared
+541.5077 	EXP 	stroop_stim: autoDraw = True
+542.5077 	EXP 	stroop_stim: autoDraw = False
+543.0072 	EXP 	stroop_stim: autoDraw = False
+543.0072 	EXP 	text: autoDraw = True
+543.9973 	EXP 	New trial (rep=0, index=118): <Trial 118 (118 in rep 0) data={'word': 'blue', 'color': 'green', 'condition': 'incongruent', 'correct_key': 'g', 'condition_tag': 'STROOP_INCONG', 'thisN': 118, 'thisTrialN': 118, 'thisRepN': 0}>
+544.0228 	EXP 	text: autoDraw = False
+544.0228 	EXP 	text: autoDraw = False
+544.0228 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+544.0228 	EXP 	stroop_stim: height = np.float64(0.05)
+544.0228 	EXP 	stroop_stim: height = np.float64(0.05)
+544.0228 	EXP 	stroop_stim: height = np.float64(0.05)
+544.0228 	EXP 	stroop_stim: text = 'blue'
+544.5078 	INFO 	Keyboard events cleared
+544.5076 	EXP 	stroop_stim: autoDraw = True
+545.5076 	EXP 	stroop_stim: autoDraw = False
+546.0076 	EXP 	stroop_stim: autoDraw = False
+546.0076 	EXP 	text: autoDraw = True
+546.9971 	EXP 	New trial (rep=0, index=119): <Trial 119 (119 in rep 0) data={'word': 'yellow', 'color': 'yellow', 'condition': 'congruent', 'correct_key': 'y', 'condition_tag': 'STROOP_CONG', 'thisN': 119, 'thisTrialN': 119, 'thisRepN': 0}>
+547.0227 	EXP 	text: autoDraw = False
+547.0227 	EXP 	text: autoDraw = False
+547.0227 	EXP 	stroop_stim: foreColor = <psychopy.colors.Color: yellow, alpha=1.0>
+547.0227 	EXP 	stroop_stim: height = np.float64(0.05)
+547.0227 	EXP 	stroop_stim: height = np.float64(0.05)
+547.0227 	EXP 	stroop_stim: height = np.float64(0.05)
+547.0227 	EXP 	stroop_stim: text = 'yellow'
+547.5077 	INFO 	Keyboard events cleared
+547.5074 	EXP 	stroop_stim: autoDraw = True
+548.5067 	EXP 	stroop_stim: autoDraw = False
+549.0073 	EXP 	stroop_stim: autoDraw = False
+549.0073 	EXP 	text: autoDraw = True
+550.0077 	EXP 	text: autoDraw = False
+550.0077 	EXP 	text: autoDraw = False
+550.0077 	EXP 	instructionOddball: autoDraw = True
+596.5582 	EXP 	Device response: <KeyPress from None: t=596.3342843999999, value=escape, duration=None>
+596.5598 	DATA 	Keypress: escape
+596.5758 	EXP 	Device response: <KeyPress from None: t=596.3342843999999, value=escape, duration=0.17001029999664752>
+596.5759 	EXP 	stroop_oddball: status = STOPPED
+596.5878 	EXP 	instructionOddball: autoDraw = False
+596.5935 	EXP 	stroop_oddball: status = STOPPED
+596.6747 	INFO 	saved data to 'C:\\Users\\TSC\\OneDrive\\Desktop\\stroop_oddball\\data\\pilot001_stroop_oddball_2026-06-19_11h28.34.219.csv'
+596.6821 	INFO 	saved data to C:\Users\TSC\OneDrive\Desktop\stroop_oddball\data\pilot001_stroop_oddball_2026-06-19_11h28.34.219.psydat
+597.5240 	DEBUG 	Saving data for stroop_oddball ExperimentHandler
+597.5410 	INFO 	Stopping keyboard key buffers.
