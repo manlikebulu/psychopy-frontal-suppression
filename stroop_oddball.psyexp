@@ -644,7 +644,6 @@
     </Routine>
   </Routines>
   <Flow>
-    <Routine name="Baseline_screen"/>
     <Routine name="stroop_Instruction"/>
     <LoopInitiator loopType="TrialHandler" name="stroop_loop">
       <Param name="Selected rows" updates="None" val="" valType="str"/>

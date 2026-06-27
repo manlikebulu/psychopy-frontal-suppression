@@ -42,9 +42,6 @@ psychoJS.scheduleCondition(function() { return (psychoJS.gui.dialogComponent.but
 // flowScheduler gets run if the participants presses OK
 flowScheduler.add(updateInfo); // add timeStamp
 flowScheduler.add(experimentInit);
-flowScheduler.add(Baseline_screenRoutineBegin());
-flowScheduler.add(Baseline_screenRoutineEachFrame());
-flowScheduler.add(Baseline_screenRoutineEnd());
 flowScheduler.add(stroop_InstructionRoutineBegin());
 flowScheduler.add(stroop_InstructionRoutineEachFrame());
 flowScheduler.add(stroop_InstructionRoutineEnd());
@@ -116,8 +113,6 @@ async function updateInfo() {
 }
 
 
-var Baseline_screenClock;
-var baseline_routine;
 var stroop_InstructionClock;
 var instructionStroop;
 var stroop_trialClock;
@@ -135,20 +130,6 @@ var thanks_txt;
 var globalClock;
 var routineTimer;
 async function experimentInit() {
-  // Initialize components for Routine "Baseline_screen"
-  Baseline_screenClock = new util.Clock();
-  baseline_routine = new visual.TextStim({
-    win: psychoJS.window,
-    name: 'baseline_routine',
-    text: '',
-    font: 'Arial',
-    units: undefined, 
-    pos: [0, 0], draggable: false, height: 0.05,  wrapWidth: undefined, ori: 0.0,
-    languageStyle: 'LTR',
-    color: new util.Color('white'),  opacity: undefined,
-    depth: 0.0 
-  });
-  
   // Initialize components for Routine "stroop_Instruction"
   stroop_InstructionClock = new util.Clock();
   instructionStroop = new visual.TextStim({
@@ -253,123 +234,6 @@ var t;
 var frameN;
 var continueRoutine;
 var routineForceEnded;
-var Baseline_screenMaxDurationReached;
-var Baseline_screenMaxDuration;
-var Baseline_screenComponents;
-function Baseline_screenRoutineBegin(snapshot) {
-  return async function () {
-    TrialHandler.fromSnapshot(snapshot); // ensure that .thisN vals are up to date
-    
-    //--- Prepare to start Routine 'Baseline_screen' ---
-    t = 0;
-    frameN = -1;
-    continueRoutine = true; // until we're told otherwise
-    // keep track of whether this Routine was forcibly ended
-    routineForceEnded = false;
-    Baseline_screenClock.reset(routineTimer.getTime());
-    routineTimer.add(60.000000);
-    Baseline_screenMaxDurationReached = false;
-    // update component parameters for each repeat
-    psychoJS.experiment.addData('Baseline_screen.started', globalClock.getTime());
-    Baseline_screenMaxDuration = null
-    // keep track of which components have finished
-    Baseline_screenComponents = [];
-    Baseline_screenComponents.push(baseline_routine);
-    
-    Baseline_screenComponents.forEach( function(thisComponent) {
-      if ('status' in thisComponent)
-        thisComponent.status = PsychoJS.Status.NOT_STARTED;
-       });
-    return Scheduler.Event.NEXT;
-  }
-}
-
-
-var frameRemains;
-function Baseline_screenRoutineEachFrame() {
-  return async function () {
-    //--- Loop for each frame of Routine 'Baseline_screen' ---
-    // get current time
-    t = Baseline_screenClock.getTime();
-    frameN = frameN + 1;// number of completed frames (so 0 is the first frame)
-    // update/draw components on each frame
-    
-    // *baseline_routine* updates
-    if (t >= 0.0 && baseline_routine.status === PsychoJS.Status.NOT_STARTED) {
-      // keep track of start time/frame for later
-      baseline_routine.tStart = t;  // (not accounting for frame time here)
-      baseline_routine.frameNStart = frameN;  // exact frame index
-      
-      baseline_routine.setAutoDraw(true);
-    }
-    
-    
-    // if baseline_routine is active this frame...
-    if (baseline_routine.status === PsychoJS.Status.STARTED) {
-    }
-    
-    frameRemains = 0.0 + 60.0 - psychoJS.window.monitorFramePeriod * 0.75;// most of one frame period left
-    if (baseline_routine.status === PsychoJS.Status.STARTED && t >= frameRemains) {
-      // keep track of stop time/frame for later
-      baseline_routine.tStop = t;  // not accounting for scr refresh
-      baseline_routine.frameNStop = frameN;  // exact frame index
-      // update status
-      baseline_routine.status = PsychoJS.Status.FINISHED;
-      baseline_routine.setAutoDraw(false);
-    }
-    
-    // check for quit (typically the Esc key)
-    if (psychoJS.experiment.experimentEnded || psychoJS.eventManager.getKeys({keyList:['escape']}).length > 0) {
-      return quitPsychoJS('The [Escape] key was pressed. Goodbye!', false);
-    }
-    
-    // check if the Routine should terminate
-    if (!continueRoutine) {  // a component has requested a forced-end of Routine
-      routineForceEnded = true;
-      return Scheduler.Event.NEXT;
-    }
-    
-    continueRoutine = false;  // reverts to True if at least one component still running
-    Baseline_screenComponents.forEach( function(thisComponent) {
-      if ('status' in thisComponent && thisComponent.status !== PsychoJS.Status.FINISHED) {
-        continueRoutine = true;
-      }
-    });
-    
-    // refresh the screen if continuing
-    if (continueRoutine && routineTimer.getTime() > 0) {
-      return Scheduler.Event.FLIP_REPEAT;
-    } else {
-      return Scheduler.Event.NEXT;
-    }
-  };
-}
-
-
-function Baseline_screenRoutineEnd(snapshot) {
-  return async function () {
-    //--- Ending Routine 'Baseline_screen' ---
-    Baseline_screenComponents.forEach( function(thisComponent) {
-      if (typeof thisComponent.setAutoDraw === 'function') {
-        thisComponent.setAutoDraw(false);
-      }
-    });
-    psychoJS.experiment.addData('Baseline_screen.stopped', globalClock.getTime());
-    if (routineForceEnded) {
-        routineTimer.reset();} else if (Baseline_screenMaxDurationReached) {
-        Baseline_screenClock.add(Baseline_screenMaxDuration);
-    } else {
-        Baseline_screenClock.add(60.000000);
-    }
-    // Routines running outside a loop should always advance the datafile row
-    if (currentLoop === psychoJS.experiment) {
-      psychoJS.experiment.nextEntry(snapshot);
-    }
-    return Scheduler.Event.NEXT;
-  }
-}
-
-
 var stroop_InstructionMaxDurationReached;
 var stroop_InstructionMaxDuration;
 var stroop_InstructionComponents;
@@ -402,6 +266,7 @@ function stroop_InstructionRoutineBegin(snapshot) {
 }
 
 
+var frameRemains;
 function stroop_InstructionRoutineEachFrame() {
   return async function () {
     //--- Loop for each frame of Routine 'stroop_Instruction' ---
